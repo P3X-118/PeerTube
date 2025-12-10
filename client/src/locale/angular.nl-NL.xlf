@@ -2269,17 +2269,17 @@
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5812787579835788700">
+      <trans-unit id="5812787579835788700" xml:space="preserve">
         <source>HTTP import (YouTube, Vimeo, direct URL...)</source>
-        <target>HTTP import(Youtube, Vimeo, directe URL...)</target>
+        <target state="translated">importeren via HTTP (Youtube, Vimeo, directe URL...)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-instance/instance-features-table.component.html</context>
           <context context-type="linenumber">113</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4992364287704007430">
+      <trans-unit id="4992364287704007430" xml:space="preserve">
         <source>Torrent import</source>
-        <target>Torrentimport</target>
+        <target state="translated">Importeren via torrents</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-instance/instance-features-table.component.html</context>
           <context context-type="linenumber">120</context>
