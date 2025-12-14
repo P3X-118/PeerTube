@@ -148,9 +148,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.progressbar.value" datatype="html">
-        <source>
-          <x id="INTERPOLATION" equiv-text="nd so on.    *"/>
-        </source>
+        <source><x id="INTERPOLATION" equiv-text="nd so on.    *"/> </source>
         <target state="translated">
           <x id="INTERPOLATION" equiv-text="nd so on.    *"/>
         </target>
@@ -256,9 +254,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.timepicker.PM" datatype="html">
-        <source>
-          <x id="INTERPOLATION"/>
-        </source>
+        <source><x id="INTERPOLATION"/> </source>
         <target state="translated">
           <x id="INTERPOLATION"/>
         </target>
@@ -427,113 +423,113 @@
           <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3106692650527238002" datatype="html">
+      <trans-unit id="3106692650527238002" datatype="html" xml:space="preserve">
         <source>Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the comment<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> in the video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been accepted</source>
-        <target state="new">Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the comment<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> in the video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been accepted</target>
+        <target state="translated">動画「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」の<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>コメント<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に対するあなたの報告が承認されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5271139318351730672" datatype="html">
+      <trans-unit id="5271139318351730672" datatype="html" xml:space="preserve">
         <source>Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the account <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been accepted</source>
-        <target state="new">Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the account <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been accepted</target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>アカウント「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.account.displayName }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に対するあなたの報告が承認されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="444865599951985388" datatype="html">
+      <trans-unit id="444865599951985388" datatype="html" xml:space="preserve">
         <source>Your <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>report <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.id }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been accepted</source>
-        <target state="new">Your <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>report <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.id }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been accepted</target>
+        <target state="translated">あなたの<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>報告「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.id }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>が承認されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7800219122620226635" datatype="html">
+      <trans-unit id="7800219122620226635" datatype="html" xml:space="preserve">
         <source>Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the video <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been rejected</source>
-        <target state="new">Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the video <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been rejected</target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>動画「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.video.name }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に対するあなたの報告が否認されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5770340315760798460" datatype="html">
+      <trans-unit id="5770340315760798460" datatype="html" xml:space="preserve">
         <source>Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the comment<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> in the video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been rejected</source>
-        <target state="new">Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the comment<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> in the video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been rejected</target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>動画「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.comment.video.name }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>の<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>コメント<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に対するあなたの報告が否認されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2782537828727485831" datatype="html">
+      <trans-unit id="2782537828727485831" datatype="html" xml:space="preserve">
         <source>Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the account <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been rejected</source>
-        <target state="new">Your report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the account <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been rejected</target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>アカウント「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.account.displayName }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に対するあなたの報告が否認されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2950443020434152399" datatype="html">
+      <trans-unit id="2950443020434152399" datatype="html" xml:space="preserve">
         <source>Your <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>report <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.id }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been rejected</source>
-        <target state="new">Your <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>report <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.id }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been rejected</target>
+        <target state="translated">あなたの<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>報告「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.id }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>が否認されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">64</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1226510633811552971" datatype="html">
+      <trans-unit id="1226510633811552971" datatype="html" xml:space="preserve">
         <source>Report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the video <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has a new message</source>
-        <target state="new">Report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the video <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has a new message</target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>動画「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.video.name }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に対する報告に新しいメッセージが届いています</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6648296169385262912" datatype="html">
+      <trans-unit id="6648296169385262912" datatype="html" xml:space="preserve">
         <source>Report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the comment<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> in the video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has a new message</source>
-        <target state="new">Report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the comment<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> in the video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has a new message</target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>動画「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.comment.video.name }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>の<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>コメント<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に対する報告に新しいメッセージが届いています</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3177140165891730922" datatype="html">
+      <trans-unit id="3177140165891730922" datatype="html" xml:space="preserve">
         <source>Report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the account <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has a new message</source>
-        <target state="new">Report of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>the account <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has a new message</target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>アカウント「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.account.displayName }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に対する報告に新しいメッセージが届いています</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7630073334744851367" datatype="html">
+      <trans-unit id="7630073334744851367" datatype="html" xml:space="preserve">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Report <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.id }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has a new message</source>
-        <target state="new"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Report <x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.id }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has a new message</target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>報告「<x id="INTERPOLATION" equiv-text="{{ n.payload.abuse.id }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に新しいメッセージが届いています</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6465007199578220942" datatype="html">
+      <trans-unit id="6465007199578220942" datatype="html" xml:space="preserve">
         <source>The recently added video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoBlacklist.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been automatically blocked</source>
-        <target state="new">The recently added video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoBlacklist.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been automatically blocked</target>
+        <target state="translated">最近追加された動画「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoBlacklist.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」が自動的にブロックされました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">86</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4874161298107302721" datatype="html">
+      <trans-unit id="4874161298107302721" datatype="html" xml:space="preserve">
         <source><x id="INTERPOLATION" equiv-text="{{ n.payload.comment.account.displayName }}"/> commented your video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="START_BLOCK_IF" equiv-text="@if (n.payload.comment.heldForReview) {"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/>This comment requires your approval<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_BLOCK_IF" equiv-text="}"/></source>
-        <target state="new"><x id="INTERPOLATION" equiv-text="{{ n.payload.comment.account.displayName }}"/> commented your video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="START_BLOCK_IF" equiv-text="@if (n.payload.comment.heldForReview) {"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/>This comment requires your approval<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_BLOCK_IF" equiv-text="}"/></target>
+        <target state="translated"><x id="INTERPOLATION" equiv-text="{{ n.payload.comment.account.displayName }}"/>さんがあなたの動画「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」にコメントしました。<x id="START_BLOCK_IF" equiv-text="@if (n.payload.comment.heldForReview) {"/>このコメントはあなたの承認を必要としています<x id="CLOSE_BLOCK_IF" equiv-text="}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">94</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5426784154028076896" datatype="html">
+      <trans-unit id="5426784154028076896" datatype="html" xml:space="preserve">
         <source>The notification concerns a comment now unavailable</source>
-        <target state="new">The notification concerns a comment now unavailable</target>
+        <target state="translated">現在利用できないコメントに関する通知です</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">103</context>
@@ -543,193 +539,193 @@
           <context context-type="linenumber">154</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4656637978298626546" datatype="html">
+      <trans-unit id="4656637978298626546" datatype="html" xml:space="preserve">
         <source>Your video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been published</source>
-        <target state="new">Your video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been published</target>
+        <target state="translated">あなたの動画「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」が公開されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">110</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1351319664993327597" datatype="html">
+      <trans-unit id="1351319664993327597" datatype="html" xml:space="preserve">
         <source>Your video import <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;limit-characters&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.videoImportIdentifier }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> succeeded</source>
-        <target state="new">Your video import <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;limit-characters&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.videoImportIdentifier }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> succeeded</target>
+        <target state="translated">あなたの動画インポート「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;limit-characters&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.videoImportIdentifier }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」に成功しました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">116</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7958711566653679727" datatype="html">
+      <trans-unit id="7958711566653679727" datatype="html" xml:space="preserve">
         <source>Your video import <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;limit-characters&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.videoImportIdentifier }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> failed</source>
-        <target state="new">Your video import <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;limit-characters&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.videoImportIdentifier }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> failed</target>
+        <target state="translated">あなたの動画インポート「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;limit-characters&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.videoImportIdentifier }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」に失敗しました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">122</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5895332637147008765" datatype="html">
+      <trans-unit id="5895332637147008765" datatype="html" xml:space="preserve">
         <source>User <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.account.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> registered on your platform</source>
-        <target state="new">User <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.account.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> registered on your platform</target>
+        <target state="translated">ユーザー「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.account.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」があなたのプラットフォームに登録しました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">128</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="26490925313529066" datatype="html">
+      <trans-unit id="26490925313529066" datatype="html" xml:space="preserve">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.actorFollow.follower.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> is following your channel <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.actorFollow.following.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.actorFollow.follower.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> is following your channel <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.actorFollow.following.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.actorFollow.follower.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>さんがあなたのチャンネル<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.actorFollow.following.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>をフォローしました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">136</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3761311151965681220" datatype="html">
+      <trans-unit id="3761311151965681220" datatype="html" xml:space="preserve">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.actorFollow.follower.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> is following <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>your account<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.actorFollow.follower.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> is following <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>your account<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.actorFollow.follower.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>さんが<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>あなたのアカウント<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>をフォローしました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">140</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="304897745310435024" datatype="html">
+      <trans-unit id="304897745310435024" datatype="html" xml:space="preserve">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.comment.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> mentioned you on video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.comment.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> mentioned you on video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.comment.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>さんがあなたの動画「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.comment.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」に返信しました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">149</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2841863296715062357" datatype="html">
+      <trans-unit id="2841863296715062357" datatype="html" xml:space="preserve">
         <source>Your platform has a new follower: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.followerHandle }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new">Your platform has a new follower: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.followerHandle }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated">あなたのプラットフォームの新しいフォロワー: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.followerHandle }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">162</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6562006871377772045" datatype="html">
+      <trans-unit id="6562006871377772045" datatype="html" xml:space="preserve">
         <source>It is awaiting your approval</source>
-        <target state="new">It is awaiting your approval</target>
+        <target state="translated">あなたの承認を待っています</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">165</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1397325530434097724" datatype="html">
+      <trans-unit id="1397325530434097724" datatype="html" xml:space="preserve">
         <source>Your platform automatically followed <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.followingHandle }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new">Your platform automatically followed <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.followingHandle }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated">あなたのプラットフォームが<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.followingHandle }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>を自動的にフォローしました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">173</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5363427723651407118" datatype="html">
+      <trans-unit id="5363427723651407118" datatype="html" xml:space="preserve">
         <source>A new version of the plugin/theme <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.plugin.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> is available: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.plugin.latestVersion }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"> A new version of the plugin/theme <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.plugin.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> is available: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.plugin.latestVersion }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated">プラグイン/テーマ <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>「<x id="INTERPOLATION" equiv-text="{{ n.payload.plugin.name }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>の新しいバージョンが利用可能です: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.plugin.latestVersion }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">180</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8366741135969473924" datatype="html">
+      <trans-unit id="8366741135969473924" datatype="html" xml:space="preserve">
         <source>A <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>new version<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> of PeerTube is available: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.peertube.latestVersion }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"> A <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>new version<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> of PeerTube is available: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.peertube.latestVersion }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated">PeerTubeの<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>新しいバージョン<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>が利用可能です: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.peertube.latestVersion }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">188</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7227749084207450889" datatype="html">
+      <trans-unit id="7227749084207450889" datatype="html" xml:space="preserve">
         <source>The edits to your video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> have been applied</source>
-        <target state="new">The edits to your video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> have been applied</target>
+        <target state="translated">あなたの動画<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>「<x id="INTERPOLATION" equiv-text="{{ n.payload.video.name }}"/>」<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>に対する編集が適用されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">195</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5438321711839670625" datatype="html">
+      <trans-unit id="5438321711839670625" datatype="html" xml:space="preserve">
         <source>User <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.registration.username }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> wants to register on your platform</source>
-        <target state="new">User <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.registration.username }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> wants to register on your platform</target>
+        <target state="translated">ユーザー「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.registration.username }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」があなたのプラットフォームに登録したがっています</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">201</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7613026369991379454" datatype="html">
+      <trans-unit id="7613026369991379454" datatype="html" xml:space="preserve">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> is live streaming: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> is live streaming: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>さんがライブ配信中です: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">209</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2397763603212120934" datatype="html">
+      <trans-unit id="2397763603212120934" datatype="html" xml:space="preserve">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> went live: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> went live: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.video.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>さんがライブ配信していました: <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">211</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7677244464103233875" datatype="html">
+      <trans-unit id="7677244464103233875" datatype="html" xml:space="preserve">
         <source><x id="INTERPOLATION" equiv-text="{{ n.payload.videoCaption.language.label }}"/> transcription of your video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoCaption.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been generated </source>
-        <target state="new"><x id="INTERPOLATION" equiv-text="{{ n.payload.videoCaption.language.label }}"/> transcription of your video <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoCaption.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> has been generated </target>
+        <target state="translated">あなたの動画「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoCaption.video.name }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」に対する<x id="INTERPOLATION" equiv-text="{{ n.payload.videoCaption.language.label }}"/>の文字起こしが生成されました </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">224</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7710432640967627087" datatype="html">
+      <trans-unit id="7710432640967627087" datatype="html" xml:space="preserve">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoChannelCollaborator.channelOwner.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> invited you to become an<x id="START_TAG_MY_COLLABORATOR_STATE" ctype="x-my_collaborator_state" equiv-text="&lt;my-collaborator-state class=&quot;mx-2&quot; type=&quot;accepted&quot;&gt;"/><x id="CLOSE_TAG_MY_COLLABORATOR_STATE" ctype="x-my_collaborator_state" equiv-text="&lt;/my-collaborator-state&gt;"/> of their channel <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoChannelCollaborator.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoChannelCollaborator.channelOwner.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> invited you to become an<x id="START_TAG_MY_COLLABORATOR_STATE" ctype="x-my_collaborator_state" equiv-text="&lt;my-collaborator-state class=&quot;mx-2&quot; type=&quot;accepted&quot;&gt;"/><x id="CLOSE_TAG_MY_COLLABORATOR_STATE" ctype="x-my_collaborator_state" equiv-text="&lt;/my-collaborator-state&gt;"/> of their channel <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoChannelCollaborator.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoChannelCollaborator.channelOwner.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>さんがあなたを、相手のチャンネル「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoChannelCollaborator.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」の<x id="START_TAG_MY_COLLABORATOR_STATE" ctype="x-my_collaborator_state" equiv-text="&lt;my-collaborator-state class=&quot;mx-2&quot; type=&quot;accepted&quot;&gt;"/><x id="CLOSE_TAG_MY_COLLABORATOR_STATE" ctype="x-my_collaborator_state" equiv-text="&lt;/my-collaborator-state&gt;"/>になるように招待しています</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">233,235</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7105490533744744390" datatype="html">
+      <trans-unit id="7105490533744744390" datatype="html" xml:space="preserve">
         <source>Invitation declined</source>
-        <target state="new">Invitation declined</target>
+        <target state="translated">招待を拒否しました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">241</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8116175184239166510" datatype="html">
+      <trans-unit id="8116175184239166510" datatype="html" xml:space="preserve">
         <source>Decline</source>
-        <target state="new">Decline</target>
+        <target state="translated">拒否</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">246</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8542704940294208915" datatype="html">
+      <trans-unit id="8542704940294208915" datatype="html" xml:space="preserve">
         <source>Invitation accepted</source>
-        <target state="new">Invitation accepted</target>
+        <target state="translated">招待を承認しました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">252</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2661718419697549317" datatype="html">
+      <trans-unit id="2661718419697549317" datatype="html" xml:space="preserve">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoChannelCollaborator.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> accepted your invitation to become an editor for your channel <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoChannelCollaborator.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoChannelCollaborator.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> accepted your invitation to become an editor for your channel <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoChannelCollaborator.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoChannelCollaborator.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>さんがあなたのチャンネル「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoChannelCollaborator.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」の編集者への招待を承認しました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">261</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5122111326999726483" datatype="html">
+      <trans-unit id="5122111326999726483" datatype="html" xml:space="preserve">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoChannelCollaborator.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> declined your invitation to become an editor for your channel <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoChannelCollaborator.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
-        <target state="new"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoChannelCollaborator.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> declined your invitation to become an editor for your channel <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoChannelCollaborator.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
+        <target state="translated"><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ n.payload.videoChannelCollaborator.account.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>さんがあなたのチャンネル「<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ n.payload.videoChannelCollaborator.channel.displayName }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>」の編集者への招待を拒否しました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">269</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4781006031372681297" datatype="html">
+      <trans-unit id="4781006031372681297" datatype="html" xml:space="preserve">
         <source>The notification points to content now unavailable</source>
-        <target state="new">The notification points to content now unavailable</target>
+        <target state="translated">現在利用できないコンテンツに対する通知です</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-notifications/user-notification-content.component.html</context>
           <context context-type="linenumber">276</context>
@@ -775,9 +771,9 @@
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5769875620432097351" datatype="html">
+      <trans-unit id="5769875620432097351" datatype="html" xml:space="preserve">
         <source>max size: <x id="PH" equiv-text="getBytes(this.maxAvatarSize)"/> extensions: <x id="PH_1" equiv-text="this.avatarExtensions"/></source>
-        <target state="new">max size: <x id="PH" equiv-text="getBytes(this.maxAvatarSize)"/> extensions: <x id="PH_1" equiv-text="this.avatarExtensions"/></target>
+        <target state="translated">最大サイズ: <x id="PH" equiv-text="getBytes(this.maxAvatarSize)"/> 拡張子: <x id="PH_1" equiv-text="this.avatarExtensions"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-actor-image-edit/actor-avatar-edit.component.ts</context>
           <context context-type="linenumber">53</context>
@@ -1121,9 +1117,9 @@
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="369207086271337598" datatype="html">
+      <trans-unit id="369207086271337598" datatype="html" xml:space="preserve">
         <source>Your report will be sent to moderators of <x id="INTERPOLATION" equiv-text="{{ currentHost }}"/>.</source>
-        <target state="new">Your report will be sent to moderators of <x id="INTERPOLATION" equiv-text="{{ currentHost }}"/>.</target>
+        <target state="translated"><x id="INTERPOLATION" equiv-text="{{ currentHost }}"/>のモデレーターに報告が送信されました。</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/report-modals/report.component.html</context>
           <context context-type="linenumber">43,45</context>
@@ -1137,9 +1133,9 @@
           <context context-type="linenumber">77,79</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8626321887384466186" datatype="html">
+      <trans-unit id="8626321887384466186" datatype="html" xml:space="preserve">
         <source>It will be forwarded to the comment origin (<x id="INTERPOLATION" equiv-text="{{ originHost }}"/>) too.</source>
-        <target state="new">It will be forwarded to the comment origin (<x id="INTERPOLATION" equiv-text="{{ originHost }}"/>) too.</target>
+        <target state="translated">コメントは、オリジン(<x id="INTERPOLATION" equiv-text="{{ originHost }}"/>)にも転送されます。</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/report-modals/report.component.html</context>
           <context context-type="linenumber">46,47</context>
@@ -2181,9 +2177,9 @@
           <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1684051774032618280" datatype="html">
+      <trans-unit id="1684051774032618280" datatype="html" xml:space="preserve">
         <source>(<x id="INTERPOLATION" equiv-text="{{ dailyUserVideoQuota | bytes: 0 }}"/> per day)</source>
-        <target state="new">(<x id="INTERPOLATION" equiv-text="{{ dailyUserVideoQuota | bytes: 0 }}"/> per day)</target>
+        <target state="translated">(<x id="INTERPOLATION" equiv-text="{{ dailyUserVideoQuota | bytes: 0 }}"/> /日)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-instance/instance-features-table.component.html</context>
           <context context-type="linenumber">63,64</context>
@@ -2697,9 +2693,9 @@
           <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1576922614762599626" datatype="html">
+      <trans-unit id="1576922614762599626" datatype="html" xml:space="preserve">
         <source>Blocking a live will automatically terminate the live stream.</source>
-        <target state="new">Blocking a live will automatically terminate the live stream.</target>
+        <target state="translated">ライブ配信をブロックすると、自動的にライブ配信も終了します。</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/video-block.component.html</context>
           <context context-type="linenumber">53,54</context>
@@ -2813,9 +2809,9 @@
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8994506181143828992" datatype="html">
+      <trans-unit id="8994506181143828992" datatype="html" xml:space="preserve">
         <source>Request new verification email</source>
-        <target state="new">Request new verification email</target>
+        <target state="translated">新しい確認メールをリクエスト</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
           <context context-type="linenumber">38,39</context>
@@ -2922,8 +2918,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="1190256911880544559" datatype="html">
-        <source>An email with the reset password instructions will be sent to <x id="PH" equiv-text="this.forgotPasswordEmail"/>.
-The link will expire within 1 hour.</source>
+        <source>An email with the reset password instructions will be sent to <x id="PH" equiv-text="this.forgotPasswordEmail"/>. The link will expire within 1 hour.</source>
         <target state="translated">パスワードをリセットするための手順が書かれたメールが <x id="PH" equiv-text="this.forgotPasswordEmail"/>に送信されます。 このリンクは1時間以内に無効となります。</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.ts</context>
@@ -3063,9 +3058,9 @@ The link will expire within 1 hour.</source>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4163272119298020373" datatype="html">
+      <trans-unit id="4163272119298020373" datatype="html" xml:space="preserve">
         <source>Filters</source>
-        <target state="new">Filters</target>
+        <target state="translated">フィルター</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+search/search.component.html</context>
           <context context-type="linenumber">28</context>
@@ -3140,9 +3135,9 @@ The link will expire within 1 hour.</source>
           <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4421489306990745770" datatype="html">
+      <trans-unit id="4421489306990745770" datatype="html" xml:space="preserve">
         <source>This website is a GAFAM alternative</source>
-        <target state="new">This website is a GAFAM alternative</target>
+        <target state="translated">このWebサイトはGAFAMの代替です</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+signup/+register/steps/register-step-about.component.html</context>
           <context context-type="linenumber">47,49</context>
@@ -3808,9 +3803,9 @@ The link will expire within 1 hour.</source>
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1698989071064321491" datatype="html">
+      <trans-unit id="1698989071064321491" datatype="html" xml:space="preserve">
         <source>Set up</source>
-        <target state="new">Set up</target>
+        <target state="translated">セットアップ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/account-setup-warning-modal.component.html</context>
           <context context-type="linenumber">42,43</context>
@@ -3900,25 +3895,25 @@ The link will expire within 1 hour.</source>
           <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5601530442010506564" datatype="html">
+      <trans-unit id="5601530442010506564" datatype="html" xml:space="preserve">
         <source>Got it</source>
-        <target state="new">Got it</target>
+        <target state="translated">分かりました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/new-feature-info-modal.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8309133070608650316" datatype="html">
+      <trans-unit id="8309133070608650316" datatype="html" xml:space="preserve">
         <source>Collaboration on channels are coming to <x id="PH" equiv-text="instanceName"/></source>
-        <target state="new">Collaboration on channels are coming to <x id="PH" equiv-text="instanceName"/></target>
+        <target state="translated">チャンネルのコラボレーションが<x id="PH" equiv-text="instanceName"/>にやってきます</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/new-feature-info.service.ts</context>
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7512666561651719221" datatype="html">
+      <trans-unit id="7512666561651719221" datatype="html" xml:space="preserve">
         <source>You can now &lt;strong&gt;invite other users&lt;/strong&gt; to collaborate on your channel</source>
-        <target state="new">You can now &lt;strong&gt;invite other users&lt;/strong&gt; to collaborate on your channel</target>
+        <target state="translated">チャンネルを共同運営するために&lt;strong&gt;他のユーザーを招待&lt;/strong&gt;できるようになりました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/new-feature-info.service.ts</context>
           <context context-type="linenumber">36</context>
@@ -4188,9 +4183,9 @@ The link will expire within 1 hour.</source>
           <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3876953685011187007" datatype="html">
+      <trans-unit id="3876953685011187007" datatype="html" xml:space="preserve">
         <source>Go to the X profile</source>
-        <target state="new">Go to the X profile</target>
+        <target state="translated">Xプロフィールを開く</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+about/about.component.html</context>
           <context context-type="linenumber">41</context>
@@ -4316,9 +4311,9 @@ The link will expire within 1 hour.</source>
           <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2734780694152757859" datatype="html">
+      <trans-unit id="2734780694152757859" datatype="html" xml:space="preserve">
         <source>View all</source>
-        <target state="new">View all</target>
+        <target state="translated">全て表示</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/header/notification-dropdown.component.html</context>
           <context context-type="linenumber">97</context>
@@ -5079,17 +5074,17 @@ The link will expire within 1 hour.</source>
           <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4289602458574418807" datatype="html">
+      <trans-unit id="4289602458574418807" datatype="html" xml:space="preserve">
         <source>Go to <x id="PH" equiv-text="this.channel().name"/> channel page</source>
-        <target state="new">Go to <x id="PH" equiv-text="this.channel().name"/> channel page</target>
+        <target state="translated"><x id="PH" equiv-text="this.channel().name"/>のチャンネルページを開く</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-actor-image/account-on-channel-avatar.component.ts</context>
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6044929163432559756" datatype="html">
+      <trans-unit id="6044929163432559756" datatype="html" xml:space="preserve">
         <source>Go to <x id="PH" equiv-text="this.account().name"/> account page</source>
-        <target state="new">Go to <x id="PH" equiv-text="this.account().name"/> account page</target>
+        <target state="translated"><x id="PH" equiv-text="this.account().name"/>のアカウントページを開く</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-actor-image/account-on-channel-avatar.component.ts</context>
           <context context-type="linenumber">27</context>
@@ -5471,33 +5466,33 @@ The link will expire within 1 hour.</source>
           <context context-type="linenumber">201</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1891940258070841377" datatype="html">
+      <trans-unit id="1891940258070841377" datatype="html" xml:space="preserve">
         <source>Change ownership of your video</source>
-        <target state="new">Change ownership of your video</target>
+        <target state="translated">動画の所有者を変更</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/main-info/video-main-info.component.html</context>
           <context context-type="linenumber">214</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2387076994218428275" datatype="html">
+      <trans-unit id="2387076994218428275" datatype="html" xml:space="preserve">
         <source>A modal window will open for you to specify the local account to which you want to transfer your video</source>
-        <target state="new">A modal window will open for you to specify the local account to which you want to transfer your video</target>
+        <target state="translated">動画の転送先となるローカルアカウントを設定するモーダルウィンドウが開きます</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/main-info/video-main-info.component.html</context>
           <context context-type="linenumber">215</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="227121252510918433" datatype="html">
+      <trans-unit id="227121252510918433" datatype="html" xml:space="preserve">
         <source>Transfer ownership</source>
-        <target state="new">Transfer ownership</target>
+        <target state="translated">所有権を転送</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/main-info/video-main-info.component.html</context>
           <context context-type="linenumber">217</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5679870628666410204" datatype="html">
+      <trans-unit id="5679870628666410204" datatype="html" xml:space="preserve">
         <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/my-library/ownership&quot;&gt;"/>Ownership change request<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> sent to <x id="INTERPOLATION" equiv-text="{{ ownershipRequestSent }}"/></source>
-        <target state="new"><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/my-library/ownership&quot;&gt;"/>Ownership change request<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> sent to <x id="INTERPOLATION" equiv-text="{{ ownershipRequestSent }}"/></target>
+        <target state="translated"><x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/my-library/ownership&quot;&gt;"/>所有権の変更リクエスト<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>が<x id="INTERPOLATION" equiv-text="{{ ownershipRequestSent }}"/>に送信されました</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/main-info/video-main-info.component.html</context>
           <context context-type="linenumber">222</context>
@@ -5763,9 +5758,9 @@ The link will expire within 1 hour.</source>
           <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2966588560631955992" datatype="html">
+      <trans-unit id="2966588560631955992" datatype="html" xml:space="preserve">
         <source>View owner account</source>
-        <target state="new">View owner account</target>
+        <target state="translated">所有者のアカウントを表示</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-channels/video-channels.component.html</context>
           <context context-type="linenumber">54,55</context>
@@ -14991,9 +14986,7 @@ The link will expire within 1 hour.</source>
         </context-group>
       </trans-unit>
       <trans-unit id="8856905278208146821" datatype="html">
-        <source>
-          <x id="ICU" equiv-text="{getTotalVideosOf(videoChannel), plural, =0 {No videos} =1 {1 video} other {{{ getTotalVideosOf(videoChannel) }} videos}}" xid="1730926218636655979"/>
-        </source>
+        <source><x id="ICU" equiv-text="{getTotalVideosOf(videoChannel), plural, =0 {No videos} =1 {1 video} other {{{ getTotalVideosOf(videoChannel) }} videos}}" xid="1730926218636655979"/> </source>
         <target state="translated">
           <x id="ICU" xid="1730926218636655979" equiv-text="{getTotalVideosOf(videoChannel), plural, =0 {動画がありません} =1 {1本の動画} other {{{ getTotalVideosOf(videoChannel) }}本の動画}}"/>
         </target>
@@ -20899,8 +20892,7 @@ The link will expire within 1 hour.</source>
         </context-group>
       </trans-unit>
       <trans-unit id="2013324644839511073" datatype="html">
-        <source>Cannot retrieve OAuth Client credentials: <x id="PH" equiv-text="err.message"/>.
-Ensure you have correctly configured PeerTube (config/ directory), in particular the "webserver" section.</source>
+        <source>Cannot retrieve OAuth Client credentials: <x id="PH" equiv-text="err.message"/>. Ensure you have correctly configured PeerTube (config/ directory), in particular the "webserver" section.</source>
         <target state="translated">OAuthクライアントの認証情報を取得できません: <x id="PH" equiv-text="err.message"/>. PeerTube (config/ directory)が正しく設定されているか、特に"webserver"の項目が正しく設定されているか確認してください。</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/auth/auth.service.ts</context>
@@ -21276,10 +21268,7 @@ Ensure you have correctly configured PeerTube (config/ directory), in particular
         </context-group>
       </trans-unit>
       <trans-unit id="7804724824750282316" datatype="html">
-        <source>
-          <x id="INTERPOLATION" equiv-text="{{ subscriptionsPagination.totalItems }}"/>
-          <x id="ICU" equiv-text="{subscriptionsPagination.totalItems, plural, =1 {subscription} other {subscriptions}}" xid="2781455366919684095"/>
-        </source>
+        <source><x id="INTERPOLATION" equiv-text="{{ subscriptionsPagination.totalItems }}"/> <x id="ICU" equiv-text="{subscriptionsPagination.totalItems, plural, =1 {subscription} other {subscriptions}}" xid="2781455366919684095"/> </source>
         <target state="translated">
           <x id="INTERPOLATION" equiv-text="{{ pagination.totalItems | myNumberFormatter }}"/>
           <x id="ICU" xid="3148804384763272950" equiv-text="{pagination.totalItems, plural, =1 {件} other {件}}"/>
@@ -25561,8 +25550,7 @@ Ensure you have correctly configured PeerTube (config/ directory), in particular
         </context-group>
       </trans-unit>
       <trans-unit id="1604871298839217952" datatype="html">
-        <source>{VAR_PLURAL, plural, =1 {other platform} other {other
-              platforms}}</source>
+        <source>{VAR_PLURAL, plural, =1 {other platform} other {other platforms}}</source>
         <target state="new">{VAR_PLURAL, plural, =1 {other platform} other {other
               platforms}}</target>
         <context-group purpose="location">
@@ -26323,9 +26311,7 @@ Ensure you have correctly configured PeerTube (config/ directory), in particular
         </context-group>
       </trans-unit>
       <trans-unit id="187187500641108332" datatype="html">
-        <source>
-          <x id="INTERPOLATION" equiv-text="{{ noResultMessage }}"/>
-        </source>
+        <source><x id="INTERPOLATION" equiv-text="{{ noResultMessage }}"/> </source>
         <target state="translated">
           <x id="INTERPOLATION" equiv-text="{{ noResultMessage }}"/>
         </target>
