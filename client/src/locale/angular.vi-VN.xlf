@@ -2081,9 +2081,9 @@
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5842305303142677924" datatype="html">
+      <trans-unit id="5842305303142677924" datatype="html" xml:space="preserve">
         <source>User registration</source>
-        <target state="translated">Đăng ký người dùng</target>
+        <target state="translated">Tạo tài khoản</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-instance/instance-features-table.component.html</context>
           <context context-type="linenumber">21</context>
@@ -4878,9 +4878,9 @@ Link hết hạn sau 1 giờ.</target>
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="753928283782809091" datatype="html">
+      <trans-unit id="753928283782809091" datatype="html" xml:space="preserve">
         <source>Select the caption file</source>
-        <target state="translated">Chọn tập tin phụ đề</target>
+        <target state="translated">Chọn tệp phụ đề</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/captions/video-caption-add-modal.component.html</context>
           <context context-type="linenumber">28</context>
@@ -5404,7 +5404,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="1922792486639674435" datatype="html" xml:space="preserve">
         <source>Describe what makes your content sensitive</source>
-        <target state="translated">Mô tả những gì làm cho nội dung của bạn nhạy cảm</target>
+        <target state="translated">Mô tả điều khiến nội dung của bạn nhạy cảm</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/moderation/video-moderation.component.html</context>
           <context context-type="linenumber">31</context>
@@ -5840,7 +5840,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="6206893322435329922" datatype="html" xml:space="preserve">
         <source>You can require comments to be approved depending on <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/my-account/auto-tag-policies&quot; target=&quot;_blank&quot;&gt;"/>your auto-tags policies<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <target state="translated">Bạn có thể yêu cầu phê duyệt bình luận tùy thuộc vào <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/my-account/auto-tag-policies&quot; target=&quot;_blank&quot;&gt;"/>chính sách tag tự động<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <target state="translated">Bạn có thể phê duyệt bình luận dựa vào <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/my-account/auto-tag-policies&quot; target=&quot;_blank&quot;&gt;"/>chính sách chặn tự động<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/moderation/video-moderation.component.html</context>
           <context context-type="linenumber">19</context>
@@ -6066,9 +6066,9 @@ Link hết hạn sau 1 giờ.</target>
           <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6722765664648523978">
+      <trans-unit id="6722765664648523978" xml:space="preserve">
         <source>Select the file to upload</source>
-        <target>Chọn tập tin để tải lên</target>
+        <target state="translated">Chọn tệp để tải lên</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/upload/video-upload.component.html</context>
           <context context-type="linenumber">7</context>
@@ -6547,9 +6547,9 @@ Link hết hạn sau 1 giờ.</target>
           <context context-type="linenumber">132</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7003826819757856838">
+      <trans-unit id="7003826819757856838" xml:space="preserve">
         <source>Upload a file</source>
-        <target>Tải lên một tập tin</target>
+        <target state="translated">Tải lên một tệp</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/video-publish.component.html</context>
           <context context-type="linenumber">66</context>
@@ -8071,7 +8071,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="7260030884541952275" datatype="html" xml:space="preserve">
         <source>That contain any word from your "<x id="PH" equiv-text="tag.name"/>" watched word list</source>
-        <target state="translated">Có chứa bất kỳ từ nào trong "<x id="PH" equiv-text="tag.name"/>" danh sách từ khóa lọc của bạn</target>
+        <target state="translated">Có chứa bất kỳ từ nào trong danh sách từ khóa lọc "<x id="PH" equiv-text="tag.name"/>" của bạn</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/my-auto-tag-policies/my-auto-tag-policies.component.ts</context>
           <context context-type="linenumber">33</context>
@@ -8223,7 +8223,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="7743206617778542802" datatype="html" xml:space="preserve">
         <source>A directory containing static files (thumbnails, avatars, video files etc.)</source>
-        <target state="translated">Một thư mục chứa các tập tin tĩnh (ảnh xem trước thu nhỏ, ảnh đại diện, tập tin video, v.v.)</target>
+        <target state="translated">Một thư mục chứa các tệp tĩnh (ảnh xem trước thu nhỏ, ảnh đại diện, tệp video, v.v.)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-account/my-account-import-export/my-account-export.component.html</context>
           <context context-type="linenumber">30</context>
@@ -8325,9 +8325,9 @@ Link hết hạn sau 1 giờ.</target>
           <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9209781328340965816">
+      <trans-unit id="9209781328340965816" xml:space="preserve">
         <source>Filter...</source>
-        <target>Bộ lọc...</target>
+        <target state="translated">Lọc...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/advanced-input-filter.component.ts</context>
           <context context-type="linenumber">39</context>
@@ -9671,7 +9671,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="8024366868273320899" datatype="html" xml:space="preserve">
         <source><x id="PH" equiv-text="host"/> unmuted by your platform.</source>
-        <target state="translated"><x id="PH" equiv-text="host"/> đã được bỏ ẩn bởi nền tảng của bạn.</target>
+        <target state="translated"><x id="PH" equiv-text="host"/> đã được bỏ ẩn bởi máy chủ của bạn.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/generic-server-blocklist.component.ts</context>
           <context context-type="linenumber">57</context>
@@ -10221,9 +10221,9 @@ Link hết hạn sau 1 giờ.</target>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1102717806459547726" datatype="html">
+      <trans-unit id="1102717806459547726" datatype="html" xml:space="preserve">
         <source>Refresh</source>
-        <target state="translated">Làm tươi</target>
+        <target state="translated">Làm mới</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/follows/following-list/following-list.component.html</context>
           <context context-type="linenumber">18</context>
@@ -14919,7 +14919,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="8580229323143279034" datatype="html" xml:space="preserve">
         <source>{VAR_PLURAL, plural, =0 {No videos} =1 {1 video} other {<x id="INTERPOLATION"/> videos }}</source>
-        <target state="translated">{VAR_PLURAL, plural, =0 {Chwua có video} =1 {1 video} other {<x id="INTERPOLATION"/> video }}</target>
+        <target state="translated">{VAR_PLURAL, plural, =0 {Chưa có video} =1 {1 video} other {<x id="INTERPOLATION"/> video }}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+accounts/accounts.component.html</context>
           <context context-type="linenumber">52</context>
@@ -15147,9 +15147,9 @@ Link hết hạn sau 1 giờ.</target>
           <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1415060111017347427" datatype="html">
+      <trans-unit id="1415060111017347427" datatype="html" xml:space="preserve">
         <source>Network</source>
-        <target state="translated">Mạng liên hợp</target>
+        <target state="translated">Liên hợp</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+about/about.component.ts</context>
           <context context-type="linenumber">51</context>
@@ -15449,7 +15449,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="8050300132367756765" datatype="html" xml:space="preserve">
         <source>Our network in figures</source>
-        <target state="translated">Mạng lưới kết nối</target>
+        <target state="translated">Mạng liên hợp</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+about/about-follows/about-follows.component.html</context>
           <context context-type="linenumber">40</context>
@@ -15481,7 +15481,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="219716072784558792" datatype="html" xml:space="preserve">
         <source>Our subscribers automatically display videos of <x id="INTERPOLATION" equiv-text="{{ instanceName }}"/> on their platforms. </source>
-        <target state="translated">Video của <x id="INTERPOLATION" equiv-text="{{ instanceName }}"/> sẽ được tự động hiển thị trên các nền tảng sau. </target>
+        <target state="translated">Video của <x id="INTERPOLATION" equiv-text="{{ instanceName }}"/> sẽ được tự động hiển thị trên các máy chủ sau. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+about/about-follows/about-follows.component.html</context>
           <context context-type="linenumber">65</context>
@@ -18089,7 +18089,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="63077766244971546" datatype="html" xml:space="preserve">
         <source>Comments may require approval depending on your auto tag policies</source>
-        <target state="translated">Bình luận có thể cần được duyệt do chính sách chặn tự động của bạn</target>
+        <target state="translated">Bình luận cần được duyệt dựa theo chính sách chặn tự động của bạn</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/server/server.service.ts</context>
           <context context-type="linenumber">114</context>
@@ -19005,7 +19005,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="6648970559549602356" datatype="html" xml:space="preserve">
         <source>Account <x id="PH" equiv-text="blockedAccount.nameWithHost"/> unmuted by your platform.</source>
-        <target state="translated">Tài khoản <x id="PH" equiv-text="blockedAccount.nameWithHost"/> được bỏ ẩn bởi nền tảng của bạn.</target>
+        <target state="translated">Tài khoản <x id="PH" equiv-text="blockedAccount.nameWithHost"/> được bỏ ẩn bởi máy chủ của bạn.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/generic-account-blocklist.component.ts</context>
           <context context-type="linenumber">54</context>
@@ -19513,7 +19513,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="6940712673291978979" datatype="html" xml:space="preserve">
         <source>from <x id="PH" equiv-text="instanceName"/> setting: <x id="PH_1" equiv-text="instancePlayerTheme"/></source>
-        <target state="translated">từ <x id="PH" equiv-text="instanceName"/> cài đặt: <x id="PH_1" equiv-text="instancePlayerTheme"/></target>
+        <target state="translated">từ cài đặt của <x id="PH" equiv-text="instanceName"/>: <x id="PH_1" equiv-text="instancePlayerTheme"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/select/select-player-theme.component.ts</context>
           <context context-type="linenumber">111</context>
@@ -19521,7 +19521,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="394587885009969736" datatype="html" xml:space="preserve">
         <source><x id="PH" equiv-text="this.channel().displayName"/> channel setting (<x id="PH_1" equiv-text="channelPlayerTheme"/>)</source>
-        <target state="translated"><x id="PH" equiv-text="this.channel().displayName"/> cài đặt kênh (<x id="PH_1" equiv-text="channelPlayerTheme"/>)</target>
+        <target state="translated">Cài đặt của kênh <x id="PH" equiv-text="this.channel().displayName"/> (<x id="PH_1" equiv-text="channelPlayerTheme"/>)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/select/select-player-theme.component.ts</context>
           <context context-type="linenumber">114</context>
@@ -20713,15 +20713,15 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="5030063045826839645" datatype="html" xml:space="preserve">
         <source>Concatenate a file at the beginning of the video.</source>
-        <target state="translated">Ghép một tập tin ở đầu video.</target>
+        <target state="translated">Ghép một tệp ở đầu video.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/studio/video-studio.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4798642303989337390" datatype="html">
+      <trans-unit id="4798642303989337390" datatype="html" xml:space="preserve">
         <source>Select the intro video file</source>
-        <target state="translated">Chọn tập tin intro</target>
+        <target state="translated">Chọn tệp intro</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/studio/video-studio.component.html</context>
           <context context-type="linenumber">36</context>
@@ -20737,15 +20737,15 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="2832051749922509643" datatype="html" xml:space="preserve">
         <source>Concatenate a file at the end of the video.</source>
-        <target state="translated">Ghép một tập tin ở cuối video.</target>
+        <target state="translated">Ghép một tệp ở cuối video.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/studio/video-studio.component.html</context>
           <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4368653199478595315" datatype="html">
+      <trans-unit id="4368653199478595315" datatype="html" xml:space="preserve">
         <source>Select the outro video file</source>
-        <target state="translated">Chọn tập tin outro</target>
+        <target state="translated">Chọn tệp outro</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/studio/video-studio.component.html</context>
           <context context-type="linenumber">50</context>
@@ -20767,9 +20767,9 @@ Link hết hạn sau 1 giờ.</target>
           <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="155510305759087510" datatype="html">
+      <trans-unit id="155510305759087510" datatype="html" xml:space="preserve">
         <source>Select watermark image file</source>
-        <target state="translated">Chọn tập tin watermark</target>
+        <target state="translated">Chọn tệp watermark</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/studio/video-studio.component.html</context>
           <context context-type="linenumber">64</context>
@@ -24119,7 +24119,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="8931091080719598584" datatype="html" xml:space="preserve">
         <source>Hide any content from that user from you, your platform and its users.</source>
-        <target state="translated">Ẩn mọi nội dung của người dùng đó cho bạn, nền tảng của bạn và người dùng nền tảng đó.</target>
+        <target state="translated">Ẩn mọi nội dung của người dùng đó cho bạn, máy chủ của bạn và người dùng máy chủ đó.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
           <context context-type="linenumber">402</context>
@@ -24135,7 +24135,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="5804354060253520825" datatype="html" xml:space="preserve">
         <source>Hide any content from that platform from you, your platform and its users.</source>
-        <target state="translated">Ẩn mọi nội dung từ nền tảng đó chobạn, nền tảng của bạn và người dùng nền tảng đó.</target>
+        <target state="translated">Ẩn mọi nội dung từ máy chủ đó chobạn, nền tảng của bạn và người dùng máy chủ đó.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
           <context context-type="linenumber">420</context>
@@ -24143,7 +24143,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="5636556831757427625" datatype="html" xml:space="preserve">
         <source>Unmute the platform by your platform</source>
-        <target state="translated">Bỏ ẩn nền tảng theo nền tảng của bạn</target>
+        <target state="translated">Bỏ ẩn máy chủ theo máy chủ của bạn</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
           <context context-type="linenumber">425</context>
@@ -24223,7 +24223,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="738499036919555877" datatype="html" xml:space="preserve">
         <source>Mute the platform</source>
-        <target state="translated">Ẩn nền tảng</target>
+        <target state="translated">Ẩn máy chủ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
           <context context-type="linenumber">327</context>
@@ -24243,7 +24243,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="3404874513484375253" datatype="html" xml:space="preserve">
         <source>Unmute the platform</source>
-        <target state="translated">Bỏ ẩn nền tảng</target>
+        <target state="translated">Bỏ ẩn máy chủ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
           <context context-type="linenumber">333</context>
@@ -24743,7 +24743,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="6099744911889532030" datatype="html" xml:space="preserve">
         <source>Account <x id="PH" equiv-text="account.nameWithHost"/> muted by your platform.</source>
-        <target state="translated">Tài khoản<x id="PH" equiv-text="account.nameWithHost"/> đã bị ẩn bởi nền tảng của bạn.</target>
+        <target state="translated">Tài khoản<x id="PH" equiv-text="account.nameWithHost"/> đã bị ẩn bởi máy chủ của bạn.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-abuse-list/abuse-list-table.component.ts</context>
           <context context-type="linenumber">484</context>
@@ -24755,7 +24755,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="4653820703858524784" datatype="html" xml:space="preserve">
         <source><x id="PH" equiv-text="host"/> muted by your platform.</source>
-        <target state="translated"><x id="PH" equiv-text="host"/> đã bị ẩn bởi nền tảng của bạn.</target>
+        <target state="translated"><x id="PH" equiv-text="host"/> đã bị ẩn bởi máy chủ của bạn.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-abuse-list/abuse-list-table.component.ts</context>
           <context context-type="linenumber">496</context>
@@ -25143,7 +25143,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="3045979261611286252" datatype="html" xml:space="preserve">
         <source>Exit full-screen editor</source>
-        <target state="translated">Thoát khỏi trình chỉnh sửa toàn màn hình</target>
+        <target state="translated">Thoát khỏi trình soạn thảo toàn màn hình</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/markdown-textarea.component.html</context>
           <context context-type="linenumber">38</context>
@@ -25151,7 +25151,7 @@ Link hết hạn sau 1 giờ.</target>
       </trans-unit>
       <trans-unit id="5828663111777947237" datatype="html" xml:space="preserve">
         <source>Full-screen editor</source>
-        <target state="translated">Trình chỉnh sửa toàn màn hình</target>
+        <target state="translated">Trình soạn thảo toàn màn hình</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/markdown-textarea.component.html</context>
           <context context-type="linenumber">40</context>
