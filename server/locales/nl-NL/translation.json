@@ -246,7 +246,7 @@
     "Should have a magnetUri or a targetUrl or a torrent file": "Moet een magnetUri of een targetUrl of een torrent-bestand bevatten",
     "Cannot use non unicast IP as targetUrl": "Kan geen niet-unicast-IP gebruiken als targetUrl",
     "Cannot delete a pending video import. Cancel it or wait for the end of the import first": "Verwijderen kan niet tijdens het importeren. Annuleer of wacht op het einde van de import",
-    "Cannot cancel a non pending video import": "Cannot cancel a non pending video import",
+    "Cannot cancel a non pending video import": "Het annuleren van een import die niet bezig is kan niet",
     "Cannot retry a non failed video import": "Cannot retry a non failed video import",
     "Cannot retry video import because the associated video metadata has been deleted": "Cannot retry video import because the associated video metadata has been deleted",
     "Cannot retry video import since it has reached the maximum number of attempts": "Cannot retry video import since it has reached the maximum number of attempts",
