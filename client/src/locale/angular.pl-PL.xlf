@@ -2915,9 +2915,9 @@
           <context context-type="linenumber">147</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1190256911880544559" datatype="html">
+      <trans-unit id="1190256911880544559" datatype="html" xml:space="preserve">
         <source>An email with the reset password instructions will be sent to <x id="PH" equiv-text="this.forgotPasswordEmail"/>. The link will expire within 1 hour.</source>
-        <target state="translated">E-mail z instrukcjami resetowania hasła został wysłany na <x id="PH" equiv-text="this.forgotPasswordEmail"/>. Odnośnik wygaśnie w ciągu 1 godziny.</target>
+        <target state="translated">E-mail z instrukcjami do resetowania hasła został wysłany na adres <x id="PH" equiv-text="this.forgotPasswordEmail"/>. Link będzie ważny przez 1 godzinę.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.ts</context>
           <context context-type="linenumber">184</context>
@@ -21342,10 +21342,9 @@
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8256466313580256940">
+      <trans-unit id="8256466313580256940" xml:space="preserve">
         <source><x id="PH"/> min ago </source>
-        <target><x id="PH"/> minut temu
-        </target>
+        <target state="translated"><x id="PH"/> min. temu </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
           <context context-type="linenumber">65</context>
@@ -21359,9 +21358,9 @@
           <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4733690367258997247" datatype="html">
+      <trans-unit id="4733690367258997247" datatype="html" xml:space="preserve">
         <source>just now</source>
-        <target state="translated">Właśnie teraz</target>
+        <target state="translated">przed chwilą</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
           <context context-type="linenumber">68</context>
@@ -21441,7 +21440,7 @@
       </trans-unit>
       <trans-unit id="8562677309401914974" datatype="html" xml:space="preserve">
         <source>{interval, plural, =1 {1 hour ago} other {<x id="interval"/> hours ago}}</source>
-        <target state="translated">{interval, plural, =1 {1 godzina temu} few {<x id="interval"/> godziny temu} other {<x id="interval"/> godzin temu}}</target>
+        <target state="translated">{interval, plural, =1 {1 godzinę temu} few {<x id="interval"/> godziny temu} other {<x id="interval"/> godzin temu}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
           <context context-type="linenumber">58</context>
