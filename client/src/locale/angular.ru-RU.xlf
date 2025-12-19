@@ -6190,9 +6190,9 @@
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6288814204222524322" datatype="html">
+      <trans-unit id="6288814204222524322" datatype="html" xml:space="preserve">
         <source><x id="PH" equiv-text="this.uploadPercents"/>%</source>
-        <target state="new"><x id="PH" equiv-text="this.uploadPercents"/>%</target>
+        <target state="translated"><x id="PH" equiv-text="this.uploadPercents"/>%</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-upload/upload-progress.component.ts</context>
           <context context-type="linenumber">27</context>
@@ -7039,9 +7039,9 @@
           <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5196199609108381046" datatype="html">
+      <trans-unit id="5196199609108381046" datatype="html" xml:space="preserve">
         <source>LDAP</source>
-        <target state="new">LDAP</target>
+        <target state="translated">LDAP</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/institutional-config.component.ts</context>
           <context context-type="linenumber">93</context>
@@ -7055,9 +7055,9 @@
           <context context-type="linenumber">94</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6588415724080421242" datatype="html">
+      <trans-unit id="6588415724080421242" datatype="html" xml:space="preserve">
         <source>OIDC</source>
-        <target state="new">OIDC</target>
+        <target state="translated">OIDC</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/institutional-config.component.ts</context>
           <context context-type="linenumber">98</context>
@@ -7071,9 +7071,9 @@
           <context context-type="linenumber">99</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8652485418991083880" datatype="html">
+      <trans-unit id="8652485418991083880" datatype="html" xml:space="preserve">
         <source>SAML</source>
-        <target state="new">SAML</target>
+        <target state="translated">SAML</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/institutional-config.component.ts</context>
           <context context-type="linenumber">103</context>
@@ -8973,9 +8973,9 @@
           <context context-type="linenumber">93</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7501659511961314738" datatype="html">
+      <trans-unit id="7501659511961314738" datatype="html" xml:space="preserve">
         <source>2FA</source>
-        <target state="new">2FA</target>
+        <target state="translated">2FA</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/overview/users/user-list/user-list.component.html</context>
           <context context-type="linenumber">93</context>
@@ -10411,9 +10411,9 @@
           <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6889832108716754007" datatype="html">
+      <trans-unit id="6889832108716754007" datatype="html" xml:space="preserve">
         <source>Favicon</source>
-        <target state="new">Favicon</target>
+        <target state="translated">Favicon</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-logo.component.html</context>
           <context context-type="linenumber">38</context>
@@ -13069,9 +13069,9 @@
           <context context-type="linenumber">161</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5345478017898998436" datatype="html">
+      <trans-unit id="5345478017898998436" datatype="html" xml:space="preserve">
         <source>Galaxy</source>
-        <target state="new">Galaxy</target>
+        <target state="translated">Galaxy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
           <context context-type="linenumber">177</context>
@@ -13093,9 +13093,9 @@
           <context context-type="linenumber">123</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6469361534730294652" datatype="html">
+      <trans-unit id="6469361534730294652" datatype="html" xml:space="preserve">
         <source>Lucide</source>
-        <target state="new">Lucide</target>
+        <target state="translated">Lucide</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
           <context context-type="linenumber">178</context>
