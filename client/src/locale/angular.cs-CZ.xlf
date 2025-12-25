@@ -21320,9 +21320,9 @@
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7970017439547878028" datatype="html">
+      <trans-unit id="7970017439547878028" datatype="html" xml:space="preserve">
         <source>in 1 year</source>
-        <target state="new">in 1 year</target>
+        <target state="translated">za 1 rok</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
           <context context-type="linenumber">26</context>
@@ -21336,9 +21336,9 @@
           <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5270698693661649973" datatype="html">
+      <trans-unit id="5270698693661649973" datatype="html" xml:space="preserve">
         <source>1 month from now</source>
-        <target state="new">1 month from now</target>
+        <target state="translated">za 1 měsíc</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
           <context context-type="linenumber">39</context>
@@ -21352,9 +21352,9 @@
           <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2644027207588859009" datatype="html">
+      <trans-unit id="2644027207588859009" datatype="html" xml:space="preserve">
         <source>in <x id="PH" equiv-text="-interval"/> min</source>
-        <target state="new">in <x id="PH" equiv-text="-interval"/> min</target>
+        <target state="needs-translation">in <x id="PH" equiv-text="-interval"/> min</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
           <context context-type="linenumber">66</context>
@@ -21532,9 +21532,9 @@
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2620980064196340732" datatype="html">
+      <trans-unit id="2620980064196340732" datatype="html" xml:space="preserve">
         <source>If you can't scan the QR code and need to enter it manually, here is the plain-text secret:</source>
-        <target state="new">If you can't scan the QR code and need to enter it manually, here is the plain-text secret:</target>
+        <target state="translated">Pokud nemůžete naskenovat QR kód a potřebujete jej zadat ručně, zde je tajný kód v prostém textu:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-account/my-account-settings/my-account-two-factor/my-account-two-factor.component.html</context>
           <context context-type="linenumber">30,32</context>
@@ -23425,49 +23425,49 @@
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2689998308942961784" datatype="html">
+      <trans-unit id="2689998308942961784" datatype="html" xml:space="preserve">
         <source>Create channel</source>
-        <target state="new">Create channel</target>
+        <target state="translated">Vytvořit kanál</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/video-channel-edit.component.ts</context>
           <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2046341807280119595" datatype="html">
+      <trans-unit id="2046341807280119595" datatype="html" xml:space="preserve">
         <source>Manage my channel</source>
-        <target state="new">Manage my channel</target>
+        <target state="translated">Spravovat můj kanál</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/video-channel-edit.component.ts</context>
           <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1212827186952717848" datatype="html">
+      <trans-unit id="1212827186952717848" datatype="html" xml:space="preserve">
         <source>General channel configuration</source>
-        <target state="new">General channel configuration</target>
+        <target state="translated">Obecná konfigurace kanálu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/video-channel-edit.routes.ts</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3756117891382518335" datatype="html">
+      <trans-unit id="3756117891382518335" datatype="html" xml:space="preserve">
         <source>Channel editors</source>
-        <target state="new">Channel editors</target>
+        <target state="translated">Editoři kanálu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/video-channel-edit.routes.ts</context>
           <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2832599058735033473" datatype="html">
+      <trans-unit id="2832599058735033473" datatype="html" xml:space="preserve">
         <source>Channel activities</source>
-        <target state="new">Channel activities</target>
+        <target state="translated">Aktivity kanálu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/video-channel-edit.routes.ts</context>
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3242444609132964678" datatype="html">
+      <trans-unit id="3242444609132964678" datatype="html" xml:space="preserve">
         <source>Search a channel</source>
-        <target state="new">Search a channel</target>
+        <target state="translated">Vyhledat kanál</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/my-video-channels.component.html</context>
           <context context-type="linenumber">8</context>
@@ -23549,17 +23549,17 @@
           <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7401094473118142911" datatype="html">
+      <trans-unit id="7401094473118142911" datatype="html" xml:space="preserve">
         <source>Your community cannot import or synchronize content from remote platforms</source>
-        <target state="new">Your community cannot import or synchronize content from remote platforms</target>
+        <target state="translated">Vaše komunita nemůže importovat ani synchronizovat obsah ze vzdálených platforem</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/community-based-config.component.ts</context>
           <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2807800733729323332" datatype="html">
+      <trans-unit id="2807800733729323332" datatype="html" xml:space="preserve">
         <source>Yes</source>
-        <target state="new">Yes</target>
+        <target state="translated">Ano</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/community-based-config.component.ts</context>
           <context context-type="linenumber">82</context>
@@ -23577,17 +23577,17 @@
           <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3757873457081573953" datatype="html">
+      <trans-unit id="3757873457081573953" datatype="html" xml:space="preserve">
         <source>Your community can live stream on the platform (this requires extra moderation work)</source>
-        <target state="new">Your community can live stream on the platform (this requires extra moderation work)</target>
+        <target state="translated">Vaše komunita může na platformě vysílat živé přenosy (to vyžaduje další moderátorskou práci)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/community-based-config.component.ts</context>
           <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3542042671420335679" datatype="html">
+      <trans-unit id="3542042671420335679" datatype="html" xml:space="preserve">
         <source>No</source>
-        <target state="new">No</target>
+        <target state="translated">Ne</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/community-based-config.component.ts</context>
           <context context-type="linenumber">87</context>
@@ -23605,33 +23605,33 @@
           <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2137796204126498003" datatype="html">
+      <trans-unit id="2137796204126498003" datatype="html" xml:space="preserve">
         <source>Your community is not permitted to run live streams on the platform</source>
-        <target state="new">Your community is not permitted to run live streams on the platform</target>
+        <target state="translated">Vaše komunita nemá povoleno provozovat živé přenosy na platformě</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/community-based-config.component.ts</context>
           <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3203530711190558690" datatype="html">
+      <trans-unit id="3203530711190558690" datatype="html" xml:space="preserve">
         <source>Use https://sepiasearch.org as default search engine to search for content across all known PeerTube platforms</source>
-        <target state="new">Use https://sepiasearch.org as default search engine to search for content across all known PeerTube platforms</target>
+        <target state="translated">Použijte https://sepiasearch.org jako výchozí vyhledávač pro vyhledávání obsahu na všech známých platformách PeerTube</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/community-based-config.component.ts</context>
           <context context-type="linenumber">96</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3246080307662107611" datatype="html">
+      <trans-unit id="3246080307662107611" datatype="html" xml:space="preserve">
         <source>Disable global search</source>
-        <target state="new">Disable global search</target>
+        <target state="translated">Zakázat globální hledání</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/community-based-config.component.ts</context>
           <context context-type="linenumber">100</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6733232584668337124" datatype="html">
+      <trans-unit id="6733232584668337124" datatype="html" xml:space="preserve">
         <source>Use your platform search engine which only displays local content</source>
-        <target state="new">Use your platform search engine which only displays local content</target>
+        <target state="translated">Použijte vyhledávač platformy, který zobrazuje pouze místní obsah</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/usage-type/community-based-config.component.ts</context>
           <context context-type="linenumber">101</context>
@@ -24116,9 +24116,9 @@
           <context context-type="linenumber">379</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2889951925674433015" datatype="html">
+      <trans-unit id="2889951925674433015" datatype="html" xml:space="preserve">
         <source>Re-send verification email</source>
-        <target state="new">Re-send verification email</target>
+        <target state="translated">Znovu odeslat ověřovací e-mail</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
           <context context-type="linenumber">389</context>
