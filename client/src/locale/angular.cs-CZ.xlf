@@ -24534,73 +24534,73 @@
           <context context-type="linenumber">183</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7292902857194439444" datatype="html">
+      <trans-unit id="7292902857194439444" datatype="html" xml:space="preserve">
         <source>Device</source>
-        <target state="new">Device</target>
+        <target state="translated">Zařízení</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-users/account-token-sessions.component.html</context>
           <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3176435734033906593" datatype="html">
+      <trans-unit id="3176435734033906593" datatype="html" xml:space="preserve">
         <source>Last Active</source>
-        <target state="new">Last Active</target>
+        <target state="translated">Poslední aktivita</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-users/account-token-sessions.component.html</context>
           <context context-type="linenumber">7,8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6834395686870336612" datatype="html">
+      <trans-unit id="6834395686870336612" datatype="html" xml:space="preserve">
         <source>No active sessions</source>
-        <target state="new">No active sessions</target>
+        <target state="translated">Žádné aktivní relace</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-users/account-token-sessions.component.html</context>
           <context context-type="linenumber">15,16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4972213921522701981" datatype="html">
+      <trans-unit id="4972213921522701981" datatype="html" xml:space="preserve">
         <source>Current Session</source>
-        <target state="new">Current Session</target>
+        <target state="translated">Aktuální relace</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-users/account-token-sessions.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="135077277733987408" datatype="html">
+      <trans-unit id="135077277733987408" datatype="html" xml:space="preserve">
         <source>Revoke</source>
-        <target state="new">Revoke</target>
+        <target state="translated">Zrušit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-users/account-token-sessions.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="790075089238274258" datatype="html">
+      <trans-unit id="790075089238274258" datatype="html" xml:space="preserve">
         <source>Are you sure you want to revoke this token session? The device will be logged out and will need to log in again.</source>
-        <target state="new">Are you sure you want to revoke this token session? The device will be logged out and will need to log in again.</target>
+        <target state="translated">Opravdu chcete zrušit tuto relaci tokenu? Zařízení bude odhlášeno a bude nutné se znovu přihlásit.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-users/account-token-sessions.component.ts</context>
           <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4438282535930517827" datatype="html">
+      <trans-unit id="4438282535930517827" datatype="html" xml:space="preserve">
         <source>Revoke token session</source>
-        <target state="new">Revoke token session</target>
+        <target state="translated">Zrušit relaci tokenu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-users/account-token-sessions.component.ts</context>
           <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8298209587281904720" datatype="html">
+      <trans-unit id="8298209587281904720" datatype="html" xml:space="preserve">
         <source>Token session revoked</source>
-        <target state="new">Token session revoked</target>
+        <target state="translated">Relace tokenu byla zrušena</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-users/account-token-sessions.component.ts</context>
           <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3577095634541271860" datatype="html">
+      <trans-unit id="3577095634541271860" datatype="html" xml:space="preserve">
         <source>comments per page</source>
-        <target state="new">comments per page</target>
+        <target state="translated">komentářů na stránku</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-video-comment/video-comment-list-admin-owner.component.html</context>
           <context context-type="linenumber">7,8</context>
@@ -25034,9 +25034,9 @@
           <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5208357333020354" datatype="html">
+      <trans-unit id="5208357333020354" datatype="html" xml:space="preserve">
         <source>Upload completed. Your archive import will be processed as soon as possible.</source>
-        <target state="new">Upload completed. Your archive import will be processed as soon as possible.</target>
+        <target state="translated">Nahrávání dokončeno. Import vašeho archivu bude zpracován co nejdříve.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-account/my-account-import-export/my-account-import.component.html</context>
           <context context-type="linenumber">66</context>
@@ -25126,9 +25126,9 @@
           <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7485814600906354728" datatype="html">
+      <trans-unit id="7485814600906354728" datatype="html" xml:space="preserve">
         <source>COPY</source>
-        <target state="new">COPY</target>
+        <target state="translated">KOPÍROVAT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/input-text.component.html</context>
           <context context-type="linenumber">24</context>
@@ -25318,25 +25318,25 @@
           <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6426647253249467388" datatype="html">
+      <trans-unit id="6426647253249467388" datatype="html" xml:space="preserve">
         <source>Filter by a channel</source>
-        <target state="new">Filter by a channel</target>
+        <target state="translated">Filtrovat podle kanálu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/my-video-playlists/my-video-playlists.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5434235221870482011" datatype="html">
+      <trans-unit id="5434235221870482011" datatype="html" xml:space="preserve">
         <source>This allows you to reorder playlists assigned to it</source>
-        <target state="new">This allows you to reorder playlists assigned to it</target>
+        <target state="translated">To vám umožňuje změnit pořadí playlistů, které jsou k němu přiřazeny</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/my-video-playlists/my-video-playlists.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3371925892115176358" datatype="html">
+      <trans-unit id="3371925892115176358" datatype="html" xml:space="preserve">
         <source>playlists per page</source>
-        <target state="new">playlists per page</target>
+        <target state="translated">playlistů na stránku</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/my-video-playlists/my-video-playlists.component.html</context>
           <context context-type="linenumber">18</context>
