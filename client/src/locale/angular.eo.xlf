@@ -252,7 +252,9 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.timepicker.PM" datatype="html">
-        <source><x id="INTERPOLATION"/> </source>
+        <source>
+          <x id="INTERPOLATION"/>
+        </source>
         <target state="translated">
           <x id="INTERPOLATION"/>
         </target>
@@ -1532,7 +1534,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/video-manage-container.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">33</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-video-playlist/video-playlist-element-miniature.component.html</context>
@@ -2043,22 +2045,6 @@
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6462281745850371027" datatype="html">
-        <source>You can subscribe to the channel via any ActivityPub-capable fediverse instance (PeerTube, Mastodon or Pleroma for example).</source>
-        <target state="translated">Vi poval aboni la kanalon per ĉiu nodo de la federuniverso, kapabla je ActivityPub (ekzemple PeerTube, Mastodono, aŭ Pleromo).</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/shared-user-subscription/remote-subscribe.component.html</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="20374890400263257" datatype="html">
-        <source>You can interact with this via any ActivityPub-capable fediverse instance (PeerTube, Mastodon or Pleroma for example).</source>
-        <target state="translated">Vi povas interagi kun ĉi tio per ĉiu nodo de la federuniverso, kapabla je ActivityPub (PeerTube, Mastodono aŭ Pleromo, ekzemple).</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/shared-user-subscription/remote-subscribe.component.html</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="6751395526297887552" datatype="html">
         <source>PeerTube version</source>
         <target state="translated">Versio de PeerTube</target>
@@ -2236,7 +2222,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/import/video-import-url.component.ts</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5365292350251865320" datatype="html">
@@ -2248,11 +2234,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/import/video-import-url.component.ts</context>
-          <context context-type="linenumber">91</context>
+          <context context-type="linenumber">90</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/live/video-go-live.component.ts</context>
-          <context context-type="linenumber">144</context>
+          <context context-type="linenumber">143</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/upload/video-upload.component.ts</context>
@@ -2750,7 +2736,7 @@
         <target>Salutnomo aŭ retpoŝtadreso</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="175344056589888866" datatype="html">
@@ -2762,7 +2748,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">59</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+signup/+register/steps/register-step-user.component.html</context>
@@ -2817,12 +2803,20 @@
           <context context-type="linenumber">38,39</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="3257605143052145807" datatype="html">
+        <source> Reset your password </source>
+        <target state="new"> Reset your password </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/+login/login.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6512825581399429064" datatype="html">
         <source>Enter the two-factor code generated by your phone app:</source>
         <target state="new">Enter the two-factor code generated by your phone app:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="42685862314953751" datatype="html">
@@ -2830,7 +2824,7 @@
         <target state="new">Two factor authentication token</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">82</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1431416938026210429">
@@ -2846,11 +2840,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">71</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">73</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+reset-password/reset-password.component.html</context>
@@ -2874,7 +2868,7 @@
         <target state="translated">Klaku ĉi tien por restarigi vian pasvorton</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">96</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7736587919193927267" datatype="html">
@@ -2882,7 +2876,7 @@
         <target state="new"> I forgot my password </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">89</context>
+          <context context-type="linenumber">97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3183213940445113677" datatype="html">
@@ -2890,7 +2884,7 @@
         <target state="translated">Aŭ saluti per</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">102</context>
+          <context context-type="linenumber">110</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3238209155172574367">
@@ -2898,7 +2892,7 @@
         <target>Forgesita pasvorto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">130</context>
+          <context context-type="linenumber">138</context>
         </context-group>
       </trans-unit>
       <trans-unit id="87327320394367488">
@@ -2908,7 +2902,7 @@
     </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">141</context>
+          <context context-type="linenumber">149</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3188014010833256853" datatype="html">
@@ -2916,15 +2910,16 @@
         <target state="translated">Enigu vian retpoŝtadreson kaj ni sendos al vi retleteron por restarigi vian pasvorton.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">147</context>
+          <context context-type="linenumber">155</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1190256911880544559" datatype="html">
-        <source>An email with the reset password instructions will be sent to <x id="PH" equiv-text="this.forgotPasswordEmail"/>. The link will expire within 1 hour.</source>
+        <source>An email with the reset password instructions will be sent to <x id="PH" equiv-text="this.forgotPasswordEmail"/>.
+The link will expire within 1 hour.</source>
         <target state="translated">Retletero kun la restariga pasvorto sendiĝos al <x id="PH" equiv-text="this.forgotPasswordEmail"/>. La ligilo havas tempolimon de 1 horo.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.ts</context>
-          <context context-type="linenumber">184</context>
+          <context context-type="linenumber">190</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4768749765465246664">
@@ -2948,7 +2943,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">152</context>
+          <context context-type="linenumber">160</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-account/my-account-settings/my-account-notification-preferences/my-account-notification-preferences.component.html</context>
@@ -2968,7 +2963,7 @@
         <target>Retpoŝtadreso</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">154</context>
+          <context context-type="linenumber">162</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+signup/+verify-account/verify-new-account-ask-send-email/verify-new-account-ask-send-email.component.html</context>
@@ -2981,7 +2976,7 @@
         <note priority="1" from="description">Password reset button</note>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">167</context>
+          <context context-type="linenumber">175</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+search/search-filters.component.html</context>
@@ -3877,6 +3872,10 @@
           <context context-type="linenumber">44</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/rest/rest-extractor.service.ts</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/helpers/utils/upload.ts</context>
           <context context-type="linenumber">36</context>
         </context-group>
@@ -4042,7 +4041,7 @@
         <target>Krei konton</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">94</context>
+          <context context-type="linenumber">102</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/users/signup-label.component.html</context>
@@ -4517,7 +4516,7 @@
         <target state="translated">La vidaŭdaĵo estas tro granda por la servilo. Bonvolu kontakti vian administranton, se vi volas pligrandigi la datumlimon.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/rest/rest-extractor.service.ts</context>
-          <context context-type="linenumber">116</context>
+          <context context-type="linenumber">111</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5131854469652959713" datatype="html">
@@ -5212,7 +5211,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">31</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-account/my-account-settings/my-account-profile/my-account-profile.component.html</context>
@@ -5528,7 +5527,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="4784303436041135088" datatype="html">
-        <source>Uploaded on <x id="INTERPOLATION" equiv-text="{{ videoCaption.updatedAt | ptDate }}"/> ✔</source>
+        <source>Uploaded on <x id="INTERPOLATION" equiv-text="{{ videoCaption.updatedAt | ptDate }}"/>	✔</source>
         <target state="new">Uploaded on <x id="INTERPOLATION" equiv-text="{{ videoCaption.updatedAt | ptDate }}"/>	✔</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/captions/video-captions.component.html</context>
@@ -5886,7 +5885,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-admin/admin-config.service.ts</context>
-          <context context-type="linenumber">166</context>
+          <context context-type="linenumber">167</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-user-settings/user-video-settings.component.ts</context>
@@ -6487,7 +6486,7 @@
         <target state="translated">Torentoj kun nur 1 dosiero estas subtenataj.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/import/video-import-torrent.component.ts</context>
-          <context context-type="linenumber">165</context>
+          <context context-type="linenumber">166</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1278564497286613571" datatype="html">
@@ -6503,7 +6502,7 @@
         <target state="new">Stream only once, replay will replace your live</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/live/video-go-live.component.ts</context>
-          <context context-type="linenumber">149</context>
+          <context context-type="linenumber">148</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2360261543675520397" datatype="html">
@@ -6511,7 +6510,7 @@
         <target state="new">Stream only once</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/live/video-go-live.component.ts</context>
-          <context context-type="linenumber">152</context>
+          <context context-type="linenumber">151</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3384650899171037827" datatype="html">
@@ -6519,7 +6518,7 @@
         <target state="new">Stream multiple times, replays will be separate videos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/live/video-go-live.component.ts</context>
-          <context context-type="linenumber">157</context>
+          <context context-type="linenumber">156</context>
         </context-group>
       </trans-unit>
       <trans-unit id="58134197356653483" datatype="html">
@@ -6527,7 +6526,7 @@
         <target state="new">Stream multiple times using the same URL</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-publish/live/video-go-live.component.ts</context>
-          <context context-type="linenumber">160</context>
+          <context context-type="linenumber">159</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8218579597782287078" datatype="html">
@@ -6875,7 +6874,7 @@
         <target state="translated">Saluti</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">84</context>
+          <context context-type="linenumber">92</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/routes.ts</context>
@@ -7863,7 +7862,7 @@
         <target state="translated">Forigi kaj reskribi</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/shared/comment/video-comments.component.ts</context>
-          <context context-type="linenumber">249</context>
+          <context context-type="linenumber">248</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7163633882758007711" datatype="html">
@@ -7871,7 +7870,7 @@
         <target state="translated">Ĉu vi certe volas forigi kaj reskribi ĉi tiun komenton?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/shared/comment/video-comments.component.ts</context>
-          <context context-type="linenumber">250</context>
+          <context context-type="linenumber">249</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7364261164248038345" datatype="html">
@@ -7879,7 +7878,7 @@
         <target state="new">Comment approved</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/shared/comment/video-comments.component.ts</context>
-          <context context-type="linenumber">273</context>
+          <context context-type="linenumber">272</context>
         </context-group>
       </trans-unit>
       <trans-unit id="723038562278401061" datatype="html">
@@ -7978,12 +7977,12 @@
           <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7508177761852352782" datatype="html">
-        <source>You can comment using an account on any ActivityPub-compatible instance (PeerTube/Mastodon/Pleroma account for example).</source>
-        <target state="translated">Vi povas komenti per konto ĉe iu ajn nodo konforma al ActivityPub (ekzemple PeerTube, Mastodono, aŭ Pleromo).</target>
+      <trans-unit id="7484733722080653014" datatype="html">
+        <source> You can comment using an account on any ActivityPub-compatible instance (PeerTube/Mastodon account for example). </source>
+        <target state="new"> You can comment using an account on any ActivityPub-compatible instance (PeerTube/Mastodon account for example). </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/shared/comment/video-comment-add.component.html</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">72,73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2958389355547305739" datatype="html">
@@ -10575,7 +10574,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/pages/video-channel-edit-general.component.html</context>
@@ -12899,7 +12898,7 @@
         <target>Ĝavoskripto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">172</context>
+          <context context-type="linenumber">176</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7207368259170794965" datatype="html">
@@ -12907,11 +12906,17 @@
         <target state="new"><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;mb-2&quot;&gt;"/>Write JavaScript code directly. Example:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_PRE" ctype="x-pre" equiv-text="&lt;pre&gt;"/>console.log('my instance is amazing');<x id="CLOSE_TAG_PRE" ctype="x-pre" equiv-text="&lt;/pre&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">175</context>
+          <context context-type="linenumber">179</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7396819983420487866" datatype="html">
-        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;mb-2&quot;&gt;"/>Write CSS code directly. Example:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_PRE" ctype="x-pre" equiv-text="&lt;pre&gt;"/> #custom-css <x id="INTERPOLATION" equiv-text="{{ '{' }}"/> color: red; <x id="INTERPOLATION_1" equiv-text="{{ '}' }}"/> <x id="CLOSE_TAG_PRE" ctype="x-pre" equiv-text="&lt;/pre&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;mb-2&quot;&gt;"/>Prepend with <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>#custom-css<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> to override styles. Example:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_PRE" ctype="x-pre" equiv-text="&lt;pre&gt;"/> #custom-css .logged-in-email <x id="INTERPOLATION" equiv-text="{{ '{' }}"/> color: red; <x id="INTERPOLATION_1" equiv-text="{{ '}' }}"/> <x id="CLOSE_TAG_PRE" ctype="x-pre" equiv-text="&lt;/pre&gt;"/></source>
+        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;mb-2&quot;&gt;"/>Write CSS code directly. Example:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_PRE" ctype="x-pre" equiv-text="&lt;pre&gt;"/>  #custom-css <x id="INTERPOLATION" equiv-text="{{ '{' }}"/>
+  color: red;
+  <x id="INTERPOLATION_1" equiv-text="{{ '}' }}"/>
+  <x id="CLOSE_TAG_PRE" ctype="x-pre" equiv-text="&lt;/pre&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;mb-2&quot;&gt;"/>Prepend with <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>#custom-css<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> to override styles. Example:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_PRE" ctype="x-pre" equiv-text="&lt;pre&gt;"/>  #custom-css .logged-in-email <x id="INTERPOLATION" equiv-text="{{ '{' }}"/>
+  color: red;
+  <x id="INTERPOLATION_1" equiv-text="{{ '}' }}"/>
+  <x id="CLOSE_TAG_PRE" ctype="x-pre" equiv-text="&lt;/pre&gt;"/></source>
         <target state="new"><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;mb-2&quot;&gt;"/>Write CSS code directly. Example:<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_PRE" ctype="x-pre" equiv-text="&lt;pre&gt;"/>  #custom-css <x id="INTERPOLATION" equiv-text="{{ '{' }}"/>
   color: red;
   <x id="INTERPOLATION_1" equiv-text="{{ '}' }}"/>
@@ -12921,7 +12926,7 @@
   <x id="CLOSE_TAG_PRE" ctype="x-pre" equiv-text="&lt;/pre&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">198</context>
+          <context context-type="linenumber">202</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5389274721155083635" datatype="html">
@@ -12929,7 +12934,7 @@
         <target state="new">Primary color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">130</context>
+          <context context-type="linenumber">131</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modal/admin-config-wizard/steps/admin-config-wizard-edit-info.component.html</context>
@@ -12941,7 +12946,7 @@
         <target state="new">Foreground color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">131</context>
+          <context context-type="linenumber">132</context>
         </context-group>
       </trans-unit>
       <trans-unit id="238646176953521330" datatype="html">
@@ -12949,7 +12954,7 @@
         <target state="new">Background color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">132</context>
+          <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1622932496860359706" datatype="html">
@@ -12957,7 +12962,7 @@
         <target state="new">Secondary background color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">134</context>
+          <context context-type="linenumber">135</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8434025273758786182" datatype="html">
@@ -12965,7 +12970,7 @@
         <target state="new">Used as a background for inputs, overlays...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">135</context>
+          <context context-type="linenumber">136</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1306050686222010125" datatype="html">
@@ -12973,7 +12978,7 @@
         <target state="new">Menu foreground color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">138</context>
+          <context context-type="linenumber">139</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1252284935573007320" datatype="html">
@@ -12981,7 +12986,7 @@
         <target state="new">Menu background color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">139</context>
+          <context context-type="linenumber">140</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8579382810547275940" datatype="html">
@@ -12989,7 +12994,7 @@
         <target state="new">Menu rounding</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">142</context>
+          <context context-type="linenumber">143</context>
         </context-group>
       </trans-unit>
       <trans-unit id="274625412449467803" datatype="html">
@@ -12997,11 +13002,11 @@
         <target state="new">Not rounded</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">145</context>
+          <context context-type="linenumber">146</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">159</context>
+          <context context-type="linenumber">160</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6332243464031230843" datatype="html">
@@ -13009,7 +13014,7 @@
         <target state="new">Slightly rounded</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">146</context>
+          <context context-type="linenumber">147</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5230468881050489759" datatype="html">
@@ -13017,7 +13022,7 @@
         <target state="new">Moderately rounded (default)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">147</context>
+          <context context-type="linenumber">148</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8021098849992891394" datatype="html">
@@ -13025,11 +13030,11 @@
         <target state="new">Rounded</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">148</context>
+          <context context-type="linenumber">149</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">162</context>
+          <context context-type="linenumber">163</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6299251653148331963" datatype="html">
@@ -13037,7 +13042,7 @@
         <target state="new">Header foreground color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">152</context>
+          <context context-type="linenumber">153</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8514898546534078404" datatype="html">
@@ -13045,7 +13050,7 @@
         <target state="new">Header background color</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">153</context>
+          <context context-type="linenumber">154</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2234379386639718019" datatype="html">
@@ -13053,7 +13058,7 @@
         <target state="new">Input rounding</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">156</context>
+          <context context-type="linenumber">157</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7646288536359666196" datatype="html">
@@ -13061,7 +13066,7 @@
         <target state="new">Slightly rounded (default)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">160</context>
+          <context context-type="linenumber">161</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8530055725227539871" datatype="html">
@@ -13069,7 +13074,7 @@
         <target state="new">Moderately rounded</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">161</context>
+          <context context-type="linenumber">162</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5345478017898998436" datatype="html">
@@ -13077,7 +13082,7 @@
         <target state="new">Galaxy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">177</context>
+          <context context-type="linenumber">178</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/select/select-player-theme.component.ts</context>
@@ -13089,7 +13094,7 @@
         <target state="new">Original theme</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">177</context>
+          <context context-type="linenumber">178</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/select/select-player-theme.component.ts</context>
@@ -13101,7 +13106,7 @@
         <target state="new">Lucide</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">178</context>
+          <context context-type="linenumber">179</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/select/select-player-theme.component.ts</context>
@@ -13113,7 +13118,7 @@
         <target state="new">A clean and modern theme</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">178</context>
+          <context context-type="linenumber">179</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-forms/select/select-player-theme.component.ts</context>
@@ -13125,7 +13130,7 @@
         <target state="new">Platform customization updated.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.ts</context>
-          <context context-type="linenumber">345</context>
+          <context context-type="linenumber">348</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2478663882166889191" datatype="html">
@@ -13201,7 +13206,7 @@
         <target state="translated">RETPOŜTO</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">123</context>
+          <context context-type="linenumber">127</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-account/my-account-settings/my-account-settings.component.html</context>
@@ -13213,7 +13218,7 @@
         <target state="new">Subject prefix</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">129</context>
+          <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
       <trans-unit id="320264913023489501" datatype="html">
@@ -13221,11 +13226,11 @@
         <target state="new">Support <x id="START_TAG_PRE" ctype="x-pre" equiv-text="&lt;pre class=&quot;d-inline&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ '{{instanceName}}' }}"/><x id="CLOSE_TAG_PRE" ctype="x-pre" equiv-text="&lt;/pre&gt;"/> template variable</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">130</context>
+          <context context-type="linenumber">134</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">144</context>
+          <context context-type="linenumber">148</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2753121656040689663" datatype="html">
@@ -13233,7 +13238,7 @@
         <target state="new">Body signature</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">143</context>
+          <context context-type="linenumber">147</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3284638679883263272" datatype="html">
@@ -13241,7 +13246,7 @@
         <target state="new">ADVANCED</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">162</context>
+          <context context-type="linenumber">166</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4290238541645115340" datatype="html">
@@ -13249,7 +13254,7 @@
         <target state="new"> Advanced modifications to your PeerTube platform if creating a plugin or a theme is overkill. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/config/pages/admin-config-customization.component.html</context>
-          <context context-type="linenumber">164</context>
+          <context context-type="linenumber">168</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4309045590850686400" datatype="html">
@@ -15026,7 +15031,9 @@
         </context-group>
       </trans-unit>
       <trans-unit id="8856905278208146821" datatype="html">
-        <source><x id="ICU" equiv-text="{getTotalVideosOf(videoChannel), plural, =0 {No videos} =1 {1 video} other {{{ getTotalVideosOf(videoChannel) }} videos}}" xid="1730926218636655979"/> </source>
+        <source>
+          <x id="ICU" equiv-text="{getTotalVideosOf(videoChannel), plural, =0 {No videos} =1 {1 video} other {{{ getTotalVideosOf(videoChannel) }} videos}}" xid="1730926218636655979"/>
+        </source>
         <target state="translated">
           <x id="ICU" xid="1730926218636655979" equiv-text="{getTotalVideosOf(videoChannel), plural, =0 {Neniaj filmoj} =1 {1 filmo} other {{{ getTotalVideosOf(videoChannel) }} filmoj}}"/>
         </target>
@@ -15584,7 +15591,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">132</context>
+          <context context-type="linenumber">140</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-account/my-account-import-export/my-account-export.component.html</context>
@@ -16468,7 +16475,7 @@
         <target state="new">{value, plural, =1 {thread} other {threads}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-admin/admin-config.service.ts</context>
-          <context context-type="linenumber">202</context>
+          <context context-type="linenumber">203</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3072354262521481761" datatype="html">
@@ -16476,7 +16483,7 @@
         <target state="new">You cannot allow live replay if you don't enable transcoding.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-admin/admin-config.service.ts</context>
-          <context context-type="linenumber">219</context>
+          <context context-type="linenumber">220</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3957742085471141221">
@@ -16540,7 +16547,7 @@
         <target state="translated">x264, celante maksimuman interkonformecon</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-admin/admin-config.service.ts</context>
-          <context context-type="linenumber">166</context>
+          <context context-type="linenumber">167</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1473738049081128420" datatype="html">
@@ -16984,7 +16991,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/pages/video-channel-editors.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/my-video-channels.component.ts</context>
@@ -17012,7 +17019,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/shared/comment/video-comments.component.ts</context>
-          <context context-type="linenumber">215</context>
+          <context context-type="linenumber">214</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/main-info/video-main-info.component.html</context>
@@ -18078,7 +18085,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/notification/notifier.service.ts</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4116911651502837995" datatype="html">
@@ -18210,7 +18217,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/notification/notifier.service.ts</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/notification/notifier.service.ts</context>
+          <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6250956071546896586" datatype="html">
@@ -18218,11 +18229,11 @@
         <target state="new">You need to reconnect</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/auth/auth.service.ts</context>
-          <context context-type="linenumber">203</context>
+          <context context-type="linenumber">207</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/auth/auth.service.ts</context>
-          <context context-type="linenumber">231</context>
+          <context context-type="linenumber">235</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2784250050046176017" datatype="html">
@@ -18230,7 +18241,7 @@
         <target state="new">Your authentication has expired, you need to reconnect.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/auth/auth.service.ts</context>
-          <context context-type="linenumber">228</context>
+          <context context-type="linenumber">232</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5076187961693950167" datatype="html">
@@ -18378,7 +18389,7 @@
         <target state="new">IP</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">32</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-users/account-token-sessions.component.html</context>
@@ -18390,7 +18401,7 @@
         <target state="new">Version</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="251663748987415005" datatype="html">
@@ -18398,7 +18409,7 @@
         <target state="new">Last contact</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6329354273972175246" datatype="html">
@@ -18814,7 +18825,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">367</context>
+          <context context-type="linenumber">471</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4209525355702493436" datatype="html">
@@ -18826,7 +18837,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">372</context>
+          <context context-type="linenumber">415</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3855396975723886053" datatype="html">
@@ -18838,7 +18849,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">373</context>
+          <context context-type="linenumber">416</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4451482225013335720">
@@ -18866,7 +18877,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">384</context>
+          <context context-type="linenumber">376</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4000387059709195655" datatype="html">
@@ -18902,11 +18913,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">35</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-registration-token-list/runner-registration-token-list.component.ts</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">36</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/my-ownership/my-ownership.component.ts</context>
@@ -19617,6 +19628,22 @@
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4734036261865085437" datatype="html">
+        <source> You can subscribe to the channel via any ActivityPub-capable fediverse instance (PeerTube or Mastodon for example). </source>
+        <target state="new"> You can subscribe to the channel via any ActivityPub-capable fediverse instance (PeerTube or Mastodon for example). </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/shared-user-subscription/remote-subscribe.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7954187697200187265" datatype="html">
+        <source> You can interact with this via any ActivityPub-capable fediverse instance (PeerTube or Mastodon for example). </source>
+        <target state="new"> You can interact with this via any ActivityPub-capable fediverse instance (PeerTube or Mastodon for example). </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/shared-user-subscription/remote-subscribe.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="1137937154872046253">
         <source>Video channel <x id="PH"/> created.</source>
         <target>Filma kanalo <x id="PH"/> kreita.</target>
@@ -19794,7 +19821,7 @@
         <target state="new">Are you sure you want to remove invitation of &lt;strong&gt;<x id="PH" equiv-text="collaborator.account.displayName"/>&lt;/strong&gt; to collaborate on your channel?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/pages/video-channel-editors.component.ts</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1861878820024137953" datatype="html">
@@ -19802,7 +19829,7 @@
         <target state="new">Are you sure you want to remove &lt;strong&gt;<x id="PH" equiv-text="collaborator.account.displayName"/>&lt;/strong&gt; as a collaborator?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/pages/video-channel-editors.component.ts</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="751060137543557029" datatype="html">
@@ -19810,7 +19837,7 @@
         <target state="new">Remove collaborator</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/pages/video-channel-editors.component.ts</context>
-          <context context-type="linenumber">77</context>
+          <context context-type="linenumber">76</context>
         </context-group>
       </trans-unit>
       <trans-unit id="405732769723561556" datatype="html">
@@ -19818,7 +19845,7 @@
         <target state="new">You have been removed as a collaborator from <x id="PH" equiv-text="this.videoChannelEdit.channel.name"/> channel</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/pages/video-channel-editors.component.ts</context>
-          <context context-type="linenumber">88</context>
+          <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5832118307296065997" datatype="html">
@@ -19826,7 +19853,7 @@
         <target state="new">Do you want to send an invitation to &lt;strong&gt;<x id="PH" equiv-text="this.newEditorUsername"/>&lt;/strong&gt; to collaborate on &lt;strong&gt;<x id="PH_1" equiv-text="this.videoChannelEdit.channel.name"/>&lt;/strong&gt;?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/pages/video-channel-editors.component.ts</context>
-          <context context-type="linenumber">134</context>
+          <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
       <trans-unit id="864409889618580451" datatype="html">
@@ -19834,7 +19861,7 @@
         <target state="new">Invite new editor</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-library/+my-video-channels/edit/pages/video-channel-editors.component.ts</context>
-          <context context-type="linenumber">136</context>
+          <context context-type="linenumber">135</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1426719913849129925" datatype="html">
@@ -20712,7 +20739,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">1024</context>
+          <context context-type="linenumber">1032</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5470809226184152498" datatype="html">
@@ -20856,7 +20883,7 @@
         <target>Fokusi la serĉujon</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">354</context>
+          <context context-type="linenumber">365</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4049262826107502276">
@@ -20864,7 +20891,7 @@
         <target>Baskuligi la maldekstran menuon</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">359</context>
+          <context context-type="linenumber">370</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4482153685775394919" datatype="html">
@@ -20872,7 +20899,7 @@
         <target state="new">Go to the "Discover videos" page</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">364</context>
+          <context context-type="linenumber">375</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6123131701694052862" datatype="html">
@@ -20880,7 +20907,7 @@
         <target state="new">Go to the "Browse videos" page</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">369</context>
+          <context context-type="linenumber">380</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5260039955239962053" datatype="html">
@@ -20888,7 +20915,7 @@
         <target state="new">Go to the "Publish video" page</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">374</context>
+          <context context-type="linenumber">385</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3578349972886631879" datatype="html">
@@ -20940,7 +20967,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="2013324644839511073" datatype="html">
-        <source>Cannot retrieve OAuth Client credentials: <x id="PH" equiv-text="err.message"/>. Ensure you have correctly configured PeerTube (config/ directory), in particular the "webserver" section.</source>
+        <source>Cannot retrieve OAuth Client credentials: <x id="PH" equiv-text="err.message"/>.
+Ensure you have correctly configured PeerTube (config/ directory), in particular the "webserver" section.</source>
         <target state="translated">Ne povas ekhavi salutilojn de OAuth Client: <x id="PH" equiv-text="err.text"/>. Certigu, ke PeerTube estas ĝuste agordita (en la dosierujo config/), precipe la sekcio «webserver».</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/auth/auth.service.ts</context>
@@ -21000,7 +21028,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/notification/notifier.service.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2817281420230417453" datatype="html">
@@ -21024,7 +21052,7 @@
         <target>Malĝusta salutnomo aŭ pasvorto.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.ts</context>
-          <context context-type="linenumber">246</context>
+          <context context-type="linenumber">252</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6974874606619467663" datatype="html">
@@ -21032,7 +21060,7 @@
         <target state="translated">Via konto estas blokita.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.ts</context>
-          <context context-type="linenumber">251</context>
+          <context context-type="linenumber">257</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4713046508117369963" datatype="html">
@@ -21040,7 +21068,7 @@
         <target state="new">This account is awaiting approval by moderators.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.ts</context>
-          <context context-type="linenumber">256</context>
+          <context context-type="linenumber">262</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5751810538002251535" datatype="html">
@@ -21048,7 +21076,15 @@
         <target state="new">Registration approval has been rejected for this account.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.ts</context>
-          <context context-type="linenumber">261</context>
+          <context context-type="linenumber">267</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5768110395382587657" datatype="html">
+        <source>Your current password is too long. Please reset it.</source>
+        <target state="new">Your current password is too long. Please reset it.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/+login/login.component.ts</context>
+          <context context-type="linenumber">272</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4467323362722952678" datatype="html">
@@ -21085,18 +21121,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/date-group-label.component.ts</context>
           <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5036991421517255667" datatype="html">
-        <source>Cannot load more videos. Try again later.</source>
-        <target state="translated">Ne povas enlegi pliajn filmojn. Reprovu pli poste.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/shared-video-miniature/videos-list.component.ts</context>
-          <context context-type="linenumber">349</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/shared-video-miniature/videos-selection.component.ts</context>
-          <context context-type="linenumber">112</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4873149362496451858">
@@ -21316,7 +21340,10 @@
         </context-group>
       </trans-unit>
       <trans-unit id="7804724824750282316" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ subscriptionsPagination.totalItems }}"/> <x id="ICU" equiv-text="{subscriptionsPagination.totalItems, plural, =1 {subscription} other {subscriptions}}" xid="2781455366919684095"/> </source>
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{ subscriptionsPagination.totalItems }}"/>
+          <x id="ICU" equiv-text="{subscriptionsPagination.totalItems, plural, =1 {subscription} other {subscriptions}}" xid="2781455366919684095"/>
+        </source>
         <target state="translated">
           <x id="INTERPOLATION" equiv-text="{{ pagination.totalItems | myNumberFormatter }}"/>
           <x id="ICU" xid="3148804384763272950" equiv-text="{pagination.totalItems, plural, =1 {rezulto} other {results}}"/>
@@ -21355,7 +21382,7 @@
         <target state="translated">antaŭ 1 jaro</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7970017439547878028" datatype="html">
@@ -21363,7 +21390,7 @@
         <target state="new">in 1 year</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6874778750344205852" datatype="html">
@@ -21371,7 +21398,7 @@
         <target state="translated">antaŭ 1 monato</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5270698693661649973" datatype="html">
@@ -21379,7 +21406,7 @@
         <target state="new">1 month from now</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8256466313580256940">
@@ -21389,7 +21416,7 @@
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">84</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2644027207588859009" datatype="html">
@@ -21397,7 +21424,7 @@
         <target state="new">in <x id="PH" equiv-text="-interval"/> min</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4733690367258997247" datatype="html">
@@ -21405,7 +21432,7 @@
         <target state="translated">ĵus</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2222108104954671970" datatype="html">
@@ -21422,7 +21449,7 @@
         <target state="translated">{interval, plural, =1 {antaŭ 1 jaro} other {<x id="interval"/> years ago}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7814200089682321851" datatype="html">
@@ -21430,7 +21457,7 @@
         <target state="new">{interval, plural, =1 {in 1 year} other {in <x id="interval"/> years}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="599762045687999334" datatype="html">
@@ -21438,7 +21465,7 @@
         <target state="translated">{interval, plural, =1 {antaŭ 1 monato} other {<x id="interval"/> months ago}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6048090992682434841" datatype="html">
@@ -21446,7 +21473,7 @@
         <target state="new">{interval, plural, =1 {in 1 month} other {in <x id="interval"/> months}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4951459525104027759" datatype="html">
@@ -21454,7 +21481,7 @@
         <target state="translated">{interval, plural, =1 {antaŭ 1 semajno} other {<x id="interval"/> weeks ago}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="684941568764684704" datatype="html">
@@ -21462,7 +21489,7 @@
         <target state="new">{interval, plural, =1 {in 1 week} other {in <x id="interval"/> weeks}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2471141982657856893" datatype="html">
@@ -21470,7 +21497,7 @@
         <target state="translated">{interval, plural, =1 {antaŭ 1 tago} other {<x id="interval"/> days ago}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1439480271605340168" datatype="html">
@@ -21478,7 +21505,7 @@
         <target state="new">{interval, plural, =1 {in 1 day} other {in <x id="interval"/> days}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8562677309401914974" datatype="html">
@@ -21486,7 +21513,7 @@
         <target state="translated">{interval, plural, =1 {antaŭ 1 horo} other {<x id="interval"/> hours ago}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7065911476903602263" datatype="html">
@@ -21494,7 +21521,7 @@
         <target state="new">{interval, plural, =1 {in 1 hour} other {in <x id="interval"/> hours}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-main/date/from-now.pipe.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6499699285816188400" datatype="html">
@@ -22420,6 +22447,10 @@
           <context context-type="sourcefile">src/app/shared/form-validators/common-validators.ts</context>
           <context context-type="linenumber">7</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/form-validators/common-validators.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5590037753298590410" datatype="html">
         <source>This field must be a URL</source>
@@ -22427,6 +22458,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/form-validators/common-validators.ts</context>
           <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3824663103894000237" datatype="html">
+        <source>This field must be a valid 6-digit hexadecimal color code.</source>
+        <target state="new">This field must be a valid 6-digit hexadecimal color code.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/form-validators/common-validators.ts</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3743508579385077788" datatype="html">
@@ -24060,7 +24099,7 @@
         <target state="translated">Aldonu mesaĝon por komuniki kun la raportinto</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-abuse-list/abuse-message-modal.component.ts</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4117663541503607703" datatype="html">
@@ -24068,7 +24107,7 @@
         <target state="translated">Aldonu mesaĝon por komuniki kun la reguligistaro</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-abuse-list/abuse-message-modal.component.ts</context>
-          <context context-type="linenumber">108</context>
+          <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4991892477258601737">
@@ -24124,7 +24163,7 @@
         <target state="translated">Redakti uzanton</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">361</context>
+          <context context-type="linenumber">370</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4728427543536046034" datatype="html">
@@ -24132,7 +24171,7 @@
         <target state="translated">Ŝanĝi datumlimon, rolon, kaj plion.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">362</context>
+          <context context-type="linenumber">371</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7913022656086109932" datatype="html">
@@ -24140,7 +24179,7 @@
         <target state="translated">Forigi uzanton</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">366</context>
+          <context context-type="linenumber">470</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7577876364431026966" datatype="html">
@@ -24148,7 +24187,7 @@
         <target state="translated">Malforbari uzanton</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">378</context>
+          <context context-type="linenumber">421</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3508163549683020253" datatype="html">
@@ -24156,7 +24195,15 @@
         <target state="translated">Permesi al la uzanto ree saluti kaj krei filmojn/komentojn</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">379</context>
+          <context context-type="linenumber">422</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="712087646607951600" datatype="html">
+        <source>Platform server moderation</source>
+        <target state="new">Platform server moderation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
+          <context context-type="linenumber">435</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2889951925674433015" datatype="html">
@@ -24164,7 +24211,15 @@
         <target state="new">Re-send verification email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">389</context>
+          <context context-type="linenumber">381</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8709893433757106476" datatype="html">
+        <source>Platform account moderation</source>
+        <target state="new">Platform account moderation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
+          <context context-type="linenumber">392</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8931091080719598584" datatype="html">
@@ -24172,7 +24227,7 @@
         <target state="new">Hide any content from that user from you, your platform and its users.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">402</context>
+          <context context-type="linenumber">399</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2591567430811860823" datatype="html">
@@ -24180,7 +24235,7 @@
         <target state="new">Show this user's content to the users of this platform again.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">408</context>
+          <context context-type="linenumber">405</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5804354060253520825" datatype="html">
@@ -24188,7 +24243,7 @@
         <target state="new">Hide any content from that platform from you, your platform and its users.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">420</context>
+          <context context-type="linenumber">439</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5636556831757427625" datatype="html">
@@ -24196,7 +24251,7 @@
         <target state="new">Unmute the platform by your platform</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">425</context>
+          <context context-type="linenumber">444</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7469865015995142386" datatype="html">
@@ -24204,7 +24259,15 @@
         <target state="new">Show back content from that platform for you, your platform and its users.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">426</context>
+          <context context-type="linenumber">445</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9183388719442195675" datatype="html">
+        <source>Platform danger zone</source>
+        <target state="new">Platform danger zone</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
+          <context context-type="linenumber">454</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3174336986672205632" datatype="html">
@@ -24212,7 +24275,7 @@
         <target state="new">Remove comments from your platform</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">436</context>
+          <context context-type="linenumber">460</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2970277936786210016" datatype="html">
@@ -24220,15 +24283,7 @@
         <target state="new">Remove comments made by this account from your platform.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">437</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="14165999502236506" datatype="html">
-        <source>Platform moderation</source>
-        <target state="new">Platform moderation</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">446</context>
+          <context context-type="linenumber">461</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1888272455383898478">
@@ -24236,11 +24291,11 @@
         <target>Silentigi ĉi tiun konton</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">315</context>
+          <context context-type="linenumber">314</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">401</context>
+          <context context-type="linenumber">398</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2365286519320230773" datatype="html">
@@ -24248,7 +24303,7 @@
         <target state="translated">Kaŝi ĉian enhavon de tiu uzanto por vi.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">316</context>
+          <context context-type="linenumber">315</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4043508901590508211">
@@ -24256,11 +24311,11 @@
         <target>Malsilentigi ĉi tiun konton</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">321</context>
+          <context context-type="linenumber">320</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">407</context>
+          <context context-type="linenumber">404</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2843593344827160627" datatype="html">
@@ -24268,7 +24323,7 @@
         <target state="translated">Remontri enhavon de tiu uzanto por vi.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">322</context>
+          <context context-type="linenumber">321</context>
         </context-group>
       </trans-unit>
       <trans-unit id="738499036919555877" datatype="html">
@@ -24276,11 +24331,11 @@
         <target state="new">Mute the platform</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">327</context>
+          <context context-type="linenumber">326</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">419</context>
+          <context context-type="linenumber">438</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1849364081331046417" datatype="html">
@@ -24288,7 +24343,7 @@
         <target state="new">Hide any content from that platform for you.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">328</context>
+          <context context-type="linenumber">327</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3404874513484375253" datatype="html">
@@ -24296,7 +24351,7 @@
         <target state="new">Unmute the platform</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">333</context>
+          <context context-type="linenumber">332</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6099316309417806930" datatype="html">
@@ -24304,7 +24359,7 @@
         <target state="new">Show back content from that platform for you.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">334</context>
+          <context context-type="linenumber">333</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3108200185023875257" datatype="html">
@@ -24312,7 +24367,7 @@
         <target state="translated">Forigi komentojn for de viaj filmoj</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">339</context>
+          <context context-type="linenumber">338</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4810478487244286994" datatype="html">
@@ -24320,7 +24375,15 @@
         <target state="translated">Forigi komentojn faritajn de ĉi tiu konto ĉe viaj filmoj.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
-          <context context-type="linenumber">340</context>
+          <context context-type="linenumber">339</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4975588549700433407" datatype="html">
+        <source>Manage user</source>
+        <target state="new">Manage user</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/shared-moderation/user-moderation-dropdown.component.ts</context>
+          <context context-type="linenumber">367</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8546847443058492245" datatype="html">
@@ -24476,7 +24539,7 @@
         <target>Tro multaj petoj; bonvolu reprovi post <x id="PH"/> minutoj.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/rest/rest-extractor.service.ts</context>
-          <context context-type="linenumber">124</context>
+          <context context-type="linenumber">119</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4965472196059235310">
@@ -24484,7 +24547,7 @@
         <target>Tro multaj provoj; bonvolu reprovi poste.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/rest/rest-extractor.service.ts</context>
-          <context context-type="linenumber">127</context>
+          <context context-type="linenumber">122</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1693549688987384699">
@@ -24492,7 +24555,7 @@
         <target>Servila eraro. Bonvolu reprovi poste.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/rest/rest-extractor.service.ts</context>
-          <context context-type="linenumber">131</context>
+          <context context-type="linenumber">126</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7793333806747606771" datatype="html">
@@ -24500,7 +24563,7 @@
         <target state="new">Server is unavailable. Please retry later.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/rest/rest-extractor.service.ts</context>
-          <context context-type="linenumber">135</context>
+          <context context-type="linenumber">130</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7436975022198908854" datatype="html">
@@ -24508,7 +24571,7 @@
         <target state="new">Unknown server error</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/rest/rest-extractor.service.ts</context>
-          <context context-type="linenumber">138</context>
+          <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3779435129809850171" datatype="html">
@@ -24768,7 +24831,7 @@
         <target state="translated">Ĉu vi certe volas forigi ĉi tiun komenton?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/shared/comment/video-comments.component.ts</context>
-          <context context-type="linenumber">216</context>
+          <context context-type="linenumber">215</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/shared-abuse-list/abuse-list-table.component.ts</context>
@@ -24780,7 +24843,7 @@
         <target state="new"> The deletion will be sent to remote platforms so they can reflect the change.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/shared/comment/video-comments.component.ts</context>
-          <context context-type="linenumber">219</context>
+          <context context-type="linenumber">218</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7794689773907080825" datatype="html">
@@ -24788,7 +24851,7 @@
         <target state="new"> It is a remote comment, so the deletion will only be effective on your platform.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/shared/comment/video-comments.component.ts</context>
-          <context context-type="linenumber">221</context>
+          <context context-type="linenumber">220</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7837272126865175984" datatype="html">
@@ -25609,7 +25672,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="1604871298839217952" datatype="html">
-        <source>{VAR_PLURAL, plural, =1 {other platform} other {other platforms}}</source>
+        <source>{VAR_PLURAL, plural, =1 {other platform} other {other
+              platforms}}</source>
         <target state="new">{VAR_PLURAL, plural, =1 {other platform} other {other
               platforms}}</target>
         <context-group purpose="location">
@@ -25634,7 +25698,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/shared/comment/video-comment.component.ts</context>
@@ -25670,7 +25734,7 @@
         <target state="new">Do you really want to delete this runner? It won't be able to process jobs anymore.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1331591430867610406" datatype="html">
@@ -25678,7 +25742,7 @@
         <target state="new">Remove <x id="PH" equiv-text="runner.name"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7401875498720294519" datatype="html">
@@ -25686,7 +25750,7 @@
         <target state="new">Runner removed.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-list/runner-list.component.ts</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6730106167108982068" datatype="html">
@@ -25710,7 +25774,7 @@
         <target state="new">Token</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-registration-token-list/runner-registration-token-list.component.ts</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5024831045497027714" datatype="html">
@@ -25718,7 +25782,7 @@
         <target state="new">Associated runners</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-registration-token-list/runner-registration-token-list.component.ts</context>
-          <context context-type="linenumber">38</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2344549567732505963" datatype="html">
@@ -25758,7 +25822,7 @@
         <target state="new">Remove this token</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-registration-token-list/runner-registration-token-list.component.ts</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1188547334387666210" datatype="html">
@@ -25766,7 +25830,7 @@
         <target state="new">Registration token generated.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-registration-token-list/runner-registration-token-list.component.ts</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="545462083274995239" datatype="html">
@@ -25774,7 +25838,7 @@
         <target state="new">Do you really want to remove this registration token? All associated runners will also be removed.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-registration-token-list/runner-registration-token-list.component.ts</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4228223651959845668" datatype="html">
@@ -25782,7 +25846,7 @@
         <target state="new">Remove registration token</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-registration-token-list/runner-registration-token-list.component.ts</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3614410801173225581" datatype="html">
@@ -25790,7 +25854,7 @@
         <target state="new">Registration token removed.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+admin/system/runners/runner-registration-token-list/runner-registration-token-list.component.ts</context>
-          <context context-type="linenumber">82</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6713730474908011769" datatype="html">
@@ -26369,8 +26433,22 @@
           <context context-type="linenumber">112</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4103450444995968891" datatype="html">
+        <source>Cannot load more videos. Please try again later.</source>
+        <target state="new">Cannot load more videos. Please try again later.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/shared-video-miniature/videos-list.component.ts</context>
+          <context context-type="linenumber">349</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/shared-video-miniature/videos-selection.component.ts</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="187187500641108332" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ noResultMessage }}"/> </source>
+        <source>
+          <x id="INTERPOLATION" equiv-text="{{ noResultMessage }}"/>
+        </source>
         <target state="new">
           <x id="INTERPOLATION" equiv-text="{{ noResultMessage }}"/>
         </target>
@@ -26698,7 +26776,7 @@
         <target>Filmo ĝisdatigita.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-manage/video-manage.component.ts</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7978464307296909824" datatype="html">
@@ -26706,7 +26784,7 @@
         <target state="new">You have unsaved changes. Are you sure you want to leave?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/+video-manage/video-manage.component.ts</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3323006969479129148" datatype="html">
@@ -26774,7 +26852,7 @@
         <target state="new">Save and run studio tasks</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/video-manage-container.component.html</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9042759538160678922" datatype="html">
@@ -26782,7 +26860,7 @@
         <target state="new">Save and replace file</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+videos-publish-manage/shared-manage/video-manage-container.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9206119333094797882" datatype="html">
@@ -26902,7 +26980,7 @@
         <target state="new">You need a password to watch this video</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">492</context>
+          <context context-type="linenumber">500</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7116606560384080593" datatype="html">
@@ -26910,7 +26988,7 @@
         <target state="new">This video is password protected</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">493</context>
+          <context context-type="linenumber">501</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6566384659758828708" datatype="html">
@@ -26918,7 +26996,7 @@
         <target state="new">Incorrect password, please enter a correct password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">494</context>
+          <context context-type="linenumber">502</context>
         </context-group>
       </trans-unit>
       <trans-unit id="785960720847076177" datatype="html">
@@ -26926,7 +27004,7 @@
         <target state="new">This video contains sensitive content. Are you sure you want to display the video page?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">545</context>
+          <context context-type="linenumber">553</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3000101082394601351" datatype="html">
@@ -26934,7 +27012,7 @@
         <target state="new">Sensitive video</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">546</context>
+          <context context-type="linenumber">554</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3982297826462365916" datatype="html">
@@ -26942,7 +27020,7 @@
         <target state="new">Display the page</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">548</context>
+          <context context-type="linenumber">556</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3393221397715061387" datatype="html">
@@ -26950,7 +27028,7 @@
         <target state="new">Quit that page</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">549</context>
+          <context context-type="linenumber">557</context>
         </context-group>
       </trans-unit>
       <trans-unit id="819996403327805209" datatype="html">
@@ -26958,7 +27036,7 @@
         <target state="new">Learn more</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">552</context>
+          <context context-type="linenumber">560</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2159130950882492111" datatype="html">
@@ -26982,7 +27060,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+login/login.component.html</context>
-          <context context-type="linenumber">162</context>
+          <context context-type="linenumber">170</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+my-account/my-account-import-export/my-account-export.component.html</context>
@@ -27070,7 +27148,7 @@
         <target state="new">Enter/exit fullscreen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">986</context>
+          <context context-type="linenumber">994</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2971009377468404076" datatype="html">
@@ -27078,7 +27156,7 @@
         <target state="new">Play/Pause the video</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">987</context>
+          <context context-type="linenumber">995</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4147087312411482964" datatype="html">
@@ -27086,7 +27164,7 @@
         <target state="new">Mute/unmute the video</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">988</context>
+          <context context-type="linenumber">996</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4791956574676305640" datatype="html">
@@ -27094,7 +27172,7 @@
         <target state="new">Skip to a percentage of the video: 0 is 0% and 9 is 90%</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">1003</context>
+          <context context-type="linenumber">1011</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3887762369650091344" datatype="html">
@@ -27102,7 +27180,7 @@
         <target state="new">Increase the volume</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">990</context>
+          <context context-type="linenumber">998</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1363382131573461910" datatype="html">
@@ -27110,7 +27188,7 @@
         <target state="new">Decrease the volume</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">991</context>
+          <context context-type="linenumber">999</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2541031516422557760" datatype="html">
@@ -27118,7 +27196,7 @@
         <target state="new">Seek the video forward</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">1005</context>
+          <context context-type="linenumber">1013</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8813023402019364882" datatype="html">
@@ -27126,7 +27204,7 @@
         <target state="new">Seek the video backward</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">1006</context>
+          <context context-type="linenumber">1014</context>
         </context-group>
       </trans-unit>
       <trans-unit id="581757752202843950" datatype="html">
@@ -27134,7 +27212,7 @@
         <target state="new">Increase playback rate</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">1008</context>
+          <context context-type="linenumber">1016</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5467642834854681120" datatype="html">
@@ -27142,7 +27220,7 @@
         <target state="new">Decrease playback rate</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">1009</context>
+          <context context-type="linenumber">1017</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3860402955823859506" datatype="html">
@@ -27150,7 +27228,7 @@
         <target state="new">Navigate in the video to the previous frame</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">1011</context>
+          <context context-type="linenumber">1019</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8232494782895420700" datatype="html">
@@ -27158,7 +27236,7 @@
         <target state="new">Navigate in the video to the next frame</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">1012</context>
+          <context context-type="linenumber">1020</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8223917068580581095" datatype="html">
@@ -27166,7 +27244,7 @@
         <target state="new">Toggle theater mode</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/+video-watch/video-watch.component.ts</context>
-          <context context-type="linenumber">996</context>
+          <context context-type="linenumber">1004</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8025996572234182184">

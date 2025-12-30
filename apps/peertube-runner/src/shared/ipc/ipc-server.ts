@@ -34,7 +34,7 @@ export class IPCServer {
   }
 
   stop () {
-    return this.netIPC.close()
+    return this.netIPC?.close()
   }
 
   private async process (req: IPCRequest) {
